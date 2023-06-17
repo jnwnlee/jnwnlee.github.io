@@ -57,7 +57,7 @@ body {
 
 ::selection {
     background: $body_drag_color;
-    color : $body_links_hover_color;
+    color : $body_links_hover_color !important;
 }
 
 .wrapper {
