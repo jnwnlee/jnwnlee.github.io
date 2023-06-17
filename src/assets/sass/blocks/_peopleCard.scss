@@ -18,12 +18,12 @@
         .prof_img {
             background-size: cover;
             width: 12rem;
-            height: 12rem;
+            height: 'auto';
             border-radius: 10px;
 
-            @media (max-width: 500px) {
-                display: None;
-              }    
+            // @media (max-width: 500px) {
+            //     display: None;
+            //   }    
         }
     }
     .student_cardwrapper{

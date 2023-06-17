@@ -35,13 +35,16 @@ $green:                                    #7FD092;
 $teal:                                     #6FDCBC;
 $cyan:                                     #17A2B8;
 
+$key-color:                                #1D9EFF;
+
+$bg-color-custom:                          #F9F7F5;
 // Body
 $body_text_primary_color:                  #111111;
 $body_text_secondary_color:                #747474;
 $body_headline_color:                      #2b2b2b;
 $body_links_color:                         #111111;
-$body_links_hover_color:                   #756641;
-$body_background_color:                    rgba(248,248,248,1);
+$body_links_hover_color:                   $key-color;
+$body-background-color:                    rgba(248,248,248,1);
 
 $body_main_element_color:                  #ffffff;
 $body_drag_color:                          transparent;
@@ -112,11 +115,13 @@ $widget_element_color:                     #2b2b2b;
 $roboto:                                   'Roboto', sans-serif;
 $roboto_b:                                 'Roboto-Bold', sans-serif;
 $helvetica:                                'Helvetica Neue', Helvetica, Arial, sans-serif;
+$suit:                                     'SUIT', san-serif; 
+$suit_b:                                   'SUIT-Bold', san-serif;
 
-$font_primary:                             $helvetica;
-$font_primary_bold:                        $helvetica;
-$font_secondary:                           $helvetica;
-$font_secondary_bold:                      $helvetica;
+$font_primary:                             $suit;
+$font_primary_bold:                        $suit_b;
+$font_secondary:                           $suit;
+$font_secondary_bold:                      $suit_b;
 $font_menu_primary:                        $roboto_b;
 
 //=================================================
@@ -137,8 +142,8 @@ $header_padding_b:                         1.91rem;
 //=================================================
 // Main
 //=================================================
-$main_padding_t:                           6.88rem;
-$main_padding_b:                           5.1rem;
+$main_padding_t:                           3.50rem;
+$main_padding_b:                           3.5rem;
 
 //=================================================
 // Footer

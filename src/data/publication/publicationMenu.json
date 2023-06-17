@@ -6,25 +6,30 @@
     },
     {
         "id": "2",
-        "title": "Annotation and Retrieval",
-        "filter": "ann_ret"
+        "title": "Audio",
+        "filter": "audio"
     },
     {
         "id": "3",
-        "title": "Generation",
-        "filter": "gen"
+        "title": "Music",
+        "filter": "music"
     },
     {
         "id": "4",
-        "title": "Language & Music",
+        "title": "Language",
         "filter": "nlp"
-    },{
+    },
+    {
         "id": "5",
-        "title": "Vision & Music",
+        "title": "Vision",
         "filter": "cv"
     },{
         "id": "6",
-        "title": "Audio & Music",
-        "filter": "audio"
+        "title": "Generation",
+        "filter": "gen"
+    },{
+        "id": "7",
+        "title": "Annotation and Retrieval",
+        "filter": "ann_ret"
     }
 ]

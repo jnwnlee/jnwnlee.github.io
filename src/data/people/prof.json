@@ -1,17 +1,17 @@
 [
     {
         "id":1,
-        "title":"Seungheon Doh",
+        "title":"Junwon Lee 이준원",
         "describtion":"I'm a Ph.D Student at Music and Audio Computing Lab, working on Music, ML/DL.",
         "detail": "In particular, my research interests focus on bridging the gap between music and multimedia: multimodal music annotation retrieval (e.g., query by language and vision data) and multimedia generation (e.g., music to image, music to sentence)",
-        "img":"Seungheon_Doh.png",
-        "ko_name":"도승헌",
-        "en_name":"Seungheon Doh",
+        "img":"jnwnlee.png",
+        "ko_name":"이준원",
+        "en_name":"Junwon Lee",
         "material":{
-            "google scholar":"https://scholar.google.com/citations?user=MCkggcgAAAAJ&hl",
-            "github":"https://github.com/seungheondoh",
-            "linkedin":"https://www.linkedin.com/in/dohppak/",
-            "twitter":"https://twitter.com/SeungHeon_Doh"
+            "google scholar":"https://scholar.google.com/citations?user=aJ-InM0AAAA ",
+            "github":"https://github.com/jnwnlee",
+            "linkedin":"https://www.linkedin.com/in/%EC%A4%80%EC%9B%90-%EC%9D%B4-a67031255",
+            "twitter":"https://twitter.com/jnwnlee"
         }
     }
 ]

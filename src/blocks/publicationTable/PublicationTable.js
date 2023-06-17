@@ -47,6 +47,10 @@ class PublicationTable extends Component {
         }
     };
 
+    getCategoryTitle (categoryFilter) {
+        return PublicationMenuData.filter( ({filter})=> filter === categoryFilter )[0].title
+    };
+
     componentDidMount() {
     }
 
@@ -88,16 +92,18 @@ class PublicationTable extends Component {
                                 return (
                                     <div key={ key } title={ item.title } className={ "publicationTable-item active " + item.category }>
                                         <h6>{ item.title }</h6>
-                                        <p>{ item.Authors }</p>
+                                        <p>{ item.Authors.split('Junwon Lee')[0] }<b>Junwon Lee</b>{ item.Authors.split('Junwon Lee')[1] }</p>
                                         <p className="date">{ item.bookTitle }</p>
+                                        <p> { item.category.split(' ').map( tag=>(<i>{'#'+this.getCategoryTitle(tag)}&ensp;</i>) )} </p>
                                     </div>
                                 );
                             } else {
                                 return (
                                     <div key={ key } title={ item.title } className={ "publicationTable-item active " + item.category }>
                                         <h6>{ item.title }</h6>
-                                        <p>{ item.Authors }</p>
+                                        <p>{ item.Authors.split('Junwon Lee')[0] }<b>Junwon Lee</b>{ item.Authors.split('Junwon Lee')[1] }</p>
                                         <p className="date">{ item.bookTitle }</p>
+                                        <p> { item.category.split(' ').map( tag=>(<i>{'#'+this.getCategoryTitle(tag)}&ensp;</i>) )} </p>
                                         {Object.keys(item.material).map((key_name, index) => {
                                             if (index === 0){
                                                 return(

@@ -3,8 +3,8 @@ import React from 'react';
 const Copyright = () => {
     return (
         <div className="copyright">
-            <p>© Music and Audio Computing Lab | KAIST</p>  
-            <p> <a href="https://ct.kaist.ac.kr/">Graduate School of Culture Technology</a></p>
+            <p>© Copyright 2023 Junwon Lee.</p>  
+            {/* <p> <a href="https://ct.kaist.ac.kr/">Graduate School of Culture Technology</a></p> */}
         </div>
     );
 };

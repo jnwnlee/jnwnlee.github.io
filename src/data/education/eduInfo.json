@@ -1,22 +1,15 @@
 [
     {
         "id": "1",
-        "school": "Korea Advanced Institute of Science and Technology (KAIST)",
-        "position": "Ph.D Student in Graduate School of Culture Technology",
-        "duration": "2021 - present",
-        "advisor": "@ Music and Audio Computing Lab (Advisor: Juhan Nam)"
+        "school": "KAIST (Korea Advanced Institute of Science and Technology)",
+        "position": "MSc in Graduate School of AI",
+        "duration": "2023 - present",
+        "advisor": "Music and Audio Computing Lab | Prof. Juhan Nam"
     },
     {
         "id": "2",
-        "school": "Korea Advanced Institute of Science and Technology (KAIST)",
-        "position": "MSc. in Graduate School of Culture Technology",
-        "duration": "2019 - 2021",
-        "advisor": "@ Music and Audio Computing Lab (Advisor: Juhan Nam)",
-        "thesis": "Musical Word Embedding for Natural Language based Music Annotation and Retrieval"
-    },{
-        "id": "3",
-        "school": "Ulsan National Institute of Science and Technology (UNIST)",
-        "position": "B.S. in School of Business administration & Industrial Design",
-        "duration": "2014 - 2019"
+        "school": "KAIST (Korea Advanced Institute of Science and Technology)",
+        "position": "B.S. in Electrical Engineering (Summa Cum Laude)",
+        "duration": "2018 - 2022"
     }
 ]

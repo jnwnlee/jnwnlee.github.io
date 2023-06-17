@@ -8,7 +8,7 @@
 
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: $helvetica;
+    font-family: $font_primary;
     color: $body_headline_color;
     margin-bottom: 1.01rem;
     
@@ -433,6 +433,7 @@ p.date {
     font-size: 0.81rem;
     color: $body_date_color;
     @include lhCrop-b(1.75, -0.25);
+    @include lhCrop-a(1.75, -0.25);
     margin-bottom: 1.5rem;
     
     &:last-child {

@@ -1,8 +1,8 @@
-import React from 'react';
+import {React, TouchableOpacity} from 'react';
 
 const Ind = ({IndInfoData}) => { 
     return (
-        <section id="page-content" className="spacer p-bottom-lg">
+        <section id="page-content" className="spacer p-top-lg p-bottom-lg">
             <div id="blog">
                 <div className="industry wrapper">
                     <h4>Experience</h4>
@@ -10,11 +10,19 @@ const Ind = ({IndInfoData}) => {
                     { IndInfoData.map((item) => {
                             return (
                                 <>
-                                    <h6>{ item.institution }</h6>
+                                    {item.link !== undefined
+                                        ? (<a href={item.link}><h6>{ item.institution }</h6></a>)
+                                        : (<h6>{ item.institution }</h6>)
+                                    }
                                     <p>
-                                        { item.position } {item.advisor !== "" ? (<span>{ item.advisor }</span>) : null}
+                                        { item.position } 
                                     </p>
-                                    <p className="date">{ item.location } | { item.duration }</p>
+                                    <p className="date">
+                                        {item.advisor !== undefined ? (<span>{ item.advisor }<br/></span>) : null}
+                                    </p>
+                                    <p className="date">
+                                        { item.location } | { item.duration }
+                                    </p>
                                 </>
                             );
                         } ) }

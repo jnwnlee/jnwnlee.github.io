@@ -1,77 +1,35 @@
 [
     {
-        "title": "Speech-to-Music Cross-Modal Retrieval Using Emotion Labels",
-        "category": "ann_ret audio",
-        "year" : "2021",
-        "Authors": "Seungheon Doh, Minz Won, Keunwoo Choi, Juhan Nam",
-        "bookTitle": "Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2023 (submit)",
+        "title": "Foley Sound Synthesis In Waveform Domain With Diffusion Model",
+        "category": "gen audio",
+        "year" : "2023",
+        "Authors": "Yoonjin Chung, Junwon Lee, and Juhan Nam",
+        "bookTitle": "DCASE 2023 Challenge Task 7 Foley Sound Synthesis Technical Report (15th, 1st model w/o phase reconstruction model)",
+        "bookCategory": "Technical Report",
+        "material" : {
+            "pdf": "https://dcase.community/challenge2023/task-foley-sound-synthesis-results#ChungKAIST2023"
+        }
+    },
+    {
+        "title": "Music Playlist Title Generation Using Artist Information",
+        "category": "gen nlp music",
+        "year" : "2023",
+        "Authors": "Haven Kim, Seungheon Doh, Junwon Lee, and Juhan Nam",
+        "bookTitle": "AAAI-23 Workshop on Creative AI Across Modalities",
         "bookCategory": "Conferences and Workshops",
         "material" : {
-            "demo": "https://seungheondoh.github.io/speech_to_music_demo/"
+            "pdf": "https://arxiv.org/abs/2301.08145"
         }
-    },{
-        "title": "Hi, KIA: A Speech Emotion Recognition Dataset for Wake-Up Words",
-        "category": "ann_ret",
-        "year" : "2021",
-        "Authors": "Taesu Kim*, Seungheon Doh*, Gyunpyo Lee, Hyung seok Jun, Juhan Nam, Hyeon-Jeong Suk (*equally contribution)",
-        "bookTitle": "Proceedings of the 14th Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA), 2022",
-        "bookCategory": "Conferences and Workshops",
-        "material" : {
-            "dataset": "https://zenodo.org/record/6989810"
-        }
-    },{
-        "title": "Million Song Search: Web Interface for Semantic Music Search Using Musical Word Embedding",
-        "category": "ann_ret nlp",
-        "year" : "2021",
-        "Authors": "Seungheon Doh, Jongpil Lee, and Juhan Nam",
-        "bookTitle": "Late Breaking Demo in the 22st International Society for Music Information Retrieval Conference (ISMIR), 2021",
-        "bookCategory": "Conferences and Workshops",
-        "material" : {
-            "pdf": "https://archives.ismir.net/ismir2021/latebreaking/000053.pdf",
-            "demo": "http://millionsongsearch.kaist.ac.kr/"
-        }
-    },{
+    },
+    {
         "title": "Music Playlist Title Generation: A Machine-Translation Approach",
-        "category": "gen nlp",
+        "category": "gen nlp music",
         "year" : "2021",
         "Authors": "Seungheon Doh, Junwon Lee, and Juhan Nam",
         "bookTitle": "2nd Workshop on Natural Language Processing for Music and Spoken Audio (NLP4MusA), 2021",
         "bookCategory": "Conferences and Workshops",
         "material" : {
             "pdf": "https://arxiv.org/abs/2110.07354"
-        }
-    },{
-        "title": "EMOPIA: A Multi-Modal Pop Piano Dataset For Emotion Recognition and Emotion-based Music Generation",
-        "category": "ann_ret gen",
-        "year" : "2021",
-        "Authors": "Hung, Hsiao-Tzu and Ching, Joann and Doh, Seungheon and Kim, Nabin and Nam, Juhan and Yang, Yi-Hsuan",
-        "bookTitle": "Proceedings of the 22nd International Society for Music Information Retrieval Conference (ISMIR), 2021",
-        "bookCategory": "Conferences and Workshops",
-        "material" : {
-            "pdf": "https://arxiv.org/abs/2108.01374",
-            "demo": "https://annahung31.github.io/EMOPIA//"
-        }
-    },{
-        "title": "TräumerAI: Dreaming Music with StyleGAN",
-        "category": "gen cv",
-        "year" : "2021",
-        "Authors": "Dasaem Jeong, Seungheon Doh, and Taegyun Kwon",
-        "bookTitle": "Workshop on Machine Learning for Creativity and Design, Neural Information Processing Systems (NeurIPS), 2020",
-        "bookCategory": "Conferences and Workshops",
-        "material" : {
-            "pdf": "https://arxiv.org/abs/2102.04680",
-            "demo": "https://jdasam.github.io/traeumerAI_demo/"
-        }
-    },{
-        "title": "Musical Word Embedding: Bridging the Gap between Listening Contexts and Music",
-        "category": "ann_ret nlp",
-        "year" : "2020",
-        "Authors": "Seungheon Doh, Jongpil Lee, Tae Hong Park, and Juhan Nam",
-        "bookTitle": "Machine Learning for Media Discovery Workshop, International Conference on Machine Learning (ICML), 2020",
-        "bookCategory": "Conferences and Workshops",
-        "material" : {
-            "pdf": "https://arxiv.org/abs/2008.01190",
-            "demo": "https://seungheondoh.github.io/MusicWordVec"
         }
     }
 ]

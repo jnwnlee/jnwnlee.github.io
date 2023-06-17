@@ -55,10 +55,11 @@ class BlogMenu extends Component {
 
         return (
             <div className="blogTable spacer p-bottom-lg">
-                 <div className="blogTable-wrapper">
+                <h5> Coming Soon. </h5>
+                 {/* <div className="blogTable-wrapper">
                     <h3>Blogs</h3>
                     <ul className="blogTable-filter">
-                        { this.state.list.map( ( item, key ) => (
+                        { this.state.list.map( ( item, key ) => (   
                             <React.Fragment key={ key }>
                                 <li>
                                     <span title={ item.title }
@@ -102,7 +103,7 @@ class BlogMenu extends Component {
                         })}
                     </div>
                 </div>
-                </div>
+                </div> */}
             </div>
         );
     }

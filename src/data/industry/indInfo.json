@@ -1,24 +1,44 @@
 [
     {
         "id": "1",
-        "institution": "Computational Intelligence, Vision, and Robotics Lab (CILVR)",
-        "location": "Center for Data Science, New York University, United States",
-        "position": "Visiting Student",
-        "duration": "Jun 2022 - Aug 2022",
-        "advisor": " (Advisor: Kyunghyun Cho)"
-    },{
+        "institution": "Bookend",
+        "location": "Daejeon, Korea",
+        "position": "Reseaerch Intern, GPT related product (Part-time)",
+        "duration": "Nov 2022 - Feb 2023",
+        "link": "https://www.bookend.tech/"
+    },
+    {
         "id": "2",
-        "institution": "ByteDance",
-        "location": "Remote (due to COVID-19)",
-        "position": "Research Intern in Speech, Audio & Music Intelligence Team",
-        "duration": "Jul 2021 - Jan 2022",
-        "advisor": " (Advisor: Keunwoo Choi, Minz Won)"
-    },{
+        "institution": "AudAI",
+        "location": "Daejeon, Korea",
+        "position": "Intern, Web FrontEnd Dev (SolidJS) and Branding (Part-time)",
+        "duration": "Sep 2022 - Feb 2023",
+        "advisor": "Advisor: Soonbeom Choi"
+    },
+    {
         "id": "3",
-        "institution": "Music and Audio Research Laboratory (MARL)",
-        "location": "Steinhardt, New York University, United States",
-        "position": "Visiting Student",
-        "duration": "Dec 2019 - Feb 2020",
-        "advisor": "(Advisor: TaeHong Park)"
+        "institution": "Inbody",
+        "location": "Future Lab, Seoul, Korea",
+        "position": "Research Intern, Computer Vision & Deep Learning related R&D",
+        "duration": "Sep 2021 - Feb 2022",
+        "link": "https://inbody.co.kr/"
+    },
+    {
+        "id": "4",
+        "institution": "Music and Audio Computing Lab",
+        "location": "KAIST (Korea Advanced Institute of Science and Technology)",
+        "position": "Research Intern (Individual Study), Beat tracking, Playlist Captioning",
+        "duration": "Sep 2020 - Aug 2021, Jan 2022 - Dec 2022",
+        "advisor": "Advisor: Taejun Kim, Seungheon Doh, Prof. Juhan Nam (CulturalTechnology dept., affiliated faculty of AI dept.)",
+        "link": "https://mac.kaist.ac.kr"
+    },
+    {
+        "id": "5",
+        "institution": "Data Intelligence Lab",
+        "location": "KAIST (Korea Advanced Institute of Science and Technology)",
+        "position": "Research Intern (Individual Study), Fairness in ML",
+        "duration": "Jul 2020 - Aug 2020, Mar 2021 - Jun 2021",
+        "advisor": "Advisor: Ki Hyun Tae, Yuji Roh, Prof. Steven Euijong Whang (ElectricalEngineering dept., affiliated faculty of AI dept.)",
+        "link": "https://sites.google.com/view/whanglab/di-lab"
     }
 ]
