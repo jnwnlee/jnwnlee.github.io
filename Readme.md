@@ -7,6 +7,8 @@ git commit origin main
 yarn deploy
 ```
 
+Special Thanks to [Seungheon Doh](https://seungheondoh.github.io).
+
 referecne
 - https://github.com/rafgraph/spa-github-pages
 - https://github.com/remarkjs/react-markdown
