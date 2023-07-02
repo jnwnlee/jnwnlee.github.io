@@ -11,7 +11,7 @@ const Ind = ({IndInfoData}) => {
                             return (
                                 <>
                                     {item.link !== undefined
-                                        ? (<a href={item.link}><h6>{ item.institution }</h6></a>)
+                                        ? (<h6><a href={item.link}>{ item.institution }</a></h6>)
                                         : (<h6>{ item.institution }</h6>)
                                     }
                                     <p>
