@@ -35,7 +35,6 @@ const Home = () => {
                 <meta name="googlebot" content="index, follow" />
                 <meta name="google" content="notranslate" />
                 <meta name="format-detection" content="telephone=no" />
-                <meta name="google-site-verification" content="G6-aAhPgTXHhI-3wYIV_mFVFuOUsr_zI8iwHPP_Gv4U" />
             </MetaTags>
 
             <Header />
