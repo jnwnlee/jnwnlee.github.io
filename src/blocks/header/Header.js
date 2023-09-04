@@ -38,7 +38,7 @@ const Header = () => {
                 <nav className="menu-third">
                     <ul className="clearfix list-unstyled">
                         <li className={ "menu-item" + ( splitArr[1] === '#/' ? " current-menu-item" : "" ) }>
-                            <h4> <b>
+                            <h5> <b>
                                 <a 
                                     title="Home"
                                     className="h1 transform-scale-h border-0 p-0"
@@ -46,10 +46,10 @@ const Header = () => {
                                     onMouseEnter={handleHomeMouseEnter}
                                     onMouseLeave={handleHomeMouseLeave}
                                     href="#/">Home</a>
-                            </b> </h4>
+                            </b> </h5>
                         </li>
                         <li className={ "menu-item" + ( splitArr[1] === '#/about' ? " current-menu-item" : "" ) }>
-                            <h4> <b>
+                            <h5> <b>
                                 <a 
                                     title="About" 
                                     className="h1 transform-scale-h border-0 p-0"
@@ -57,10 +57,10 @@ const Header = () => {
                                     onMouseEnter={handleAboutMouseEnter}
                                     onMouseLeave={handleAboutMouseLeave}
                                     href="#/about">About</a>
-                            </b> </h4>
+                            </b> </h5>
                         </li>
                         <li className={ "menu-item" + ( splitArr[1] === '#/blog' ? " current-menu-item" : "" ) }>
-                            <h4> <b>
+                            <h5> <b>
                                 <a 
                                     title="Blog" 
                                     className="h1 transform-scale-h border-0 p-0"
@@ -68,7 +68,7 @@ const Header = () => {
                                     onMouseEnter={handleBlogMouseEnter}
                                     onMouseLeave={handleBlogMouseLeave}
                                     href="#/blog">Blog</a>
-                            </b> </h4>
+                            </b> </h5>
                         </li>
                         {/* <li className={ "menu-item" + ( splitArr[1] === '#/thesis' ? " current-menu-item" : "" ) }>
                             <a 

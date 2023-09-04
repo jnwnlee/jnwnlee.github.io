@@ -32,7 +32,8 @@ const Prof = ({ProfData}) => {
                                     
                                     <div className="info_div">
                                         <h4>{item.title}</h4>
-                                        <p> M.S. Student @ <a href='https://mac.kaist.ac.kr/'>Music and Audio Computing Lab</a> 
+                                        <p>AI researcher <br/>
+                                        M.S. Student @ <a href='https://mac.kaist.ac.kr/'>Music and Audio Computing Lab</a> 
                                         &nbsp;(<a href="https://mac.kaist.ac.kr/~juhan/">Prof. Juhan Nam</a>). <br/> 
                                         Research Interest: Machine Learning, Music & Audio Information Retrieval, Multimodal Generation. <br/>
                                         james39@kaist.ac.kr

@@ -31,7 +31,7 @@ const News = ({NewsInfoData}) => {
                         }
                     } ) }
                     </ul>
-                    <hr/>
+                    {/* <hr/> */}
                 </div>
             </div>
         </section>
