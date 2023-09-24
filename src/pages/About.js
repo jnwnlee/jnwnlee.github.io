@@ -19,7 +19,7 @@ import IndInfoData from '../data/industry/indInfo.json';
 const About = () => {
     document.body.classList.add( 'about' );
     document.body.classList.add( 'bg-fixed' );
-    document.body.classList.add( 'bg-line' );
+    document.body.classList.add( 'bg-color-custom' );
 
     return (
         <Fragment>

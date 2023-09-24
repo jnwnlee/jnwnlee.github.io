@@ -12,7 +12,7 @@ import Footer from '../blocks/footer/Footer';
 const page404 = () => {
     document.body.classList.add( 'error404' );
     document.body.classList.add( 'bg-fixed' );
-    document.body.classList.add( 'bg-line' );
+    document.body.classList.add( 'bg-color-custom' );
 
     return (
         <Fragment>

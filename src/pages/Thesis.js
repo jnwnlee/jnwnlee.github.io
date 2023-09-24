@@ -7,7 +7,7 @@ import Footer from '../blocks/footer/Footer';
 const Thesis = () => {
     document.body.classList.add( 'thesis' );
     document.body.classList.add( 'bg-fixed' );
-    document.body.classList.add( 'bg-line' );
+    document.body.classList.add( 'bg-color-custom' );
 
     return (
         <Fragment>

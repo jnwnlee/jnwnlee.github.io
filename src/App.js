@@ -6,26 +6,21 @@ import About from './pages/About';
 import page404 from './pages/404';
 import Thesis from './pages/Thesis';
 
-// const router = createBrowserRouter([
-//     {
-//       path: "/",
-//       element: <Home />,
-//     //   loader: rootLoader,
-//     //   children: [
-//     //     {
-//     //       path: "team",
-//     //       element: <Team />,
-//     //       loader: teamLoader,
-//     //     },
-//     //   ],
-//     },
-//   ]);  
+import { createBrowserHistory } from 'history';
+
+const history = createBrowserHistory();
+
+// Check if the URL has the original path as a query parameter
+const originalPath = window.location.search.substr(1);
+
+if (originalPath) {
+  history.replace('/' + originalPath);
+}
 
 function App() {
     return (
         <React.StrictMode>
-        {/* <RouterProvider router={router} /> */}
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <BrowserRouter basename={process.env.PUBLIC_URL} history={history}>
             <Switch>
                 <Route
                     exact path= "/"

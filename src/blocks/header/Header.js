@@ -21,13 +21,20 @@ const Header = () => {
     return (
         <header id="header" className="site-header">
             <div className='wrapper d-flex justify-content-start site-title'>
-                <a
+                {/* <a
                     title="Home"
                     className=''
                     href="#/"
                     style={{width: 14+'rem'}}>
                     <img src={Logo} alt='jnwn'/>
-                </a>
+                </a> */}
+                <Link
+                    title="Home"
+                    className=''
+                    to="/"
+                    style={{width: 14+'rem'}}>
+                        <img src={Logo} alt='jnwn'/>
+                </Link>
             </div>
             <div className="wrapper d-flex justify-content-start">
                 {/*

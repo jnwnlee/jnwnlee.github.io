@@ -17,7 +17,7 @@ const Contents = () => {
 
     document.body.classList.add( 'blog' );
     document.body.classList.add( 'bg-fixed' );
-    document.body.classList.add( 'bg-line' );
+    document.body.classList.add( 'bg-color-custom' );
     return (
         <Fragment>
             <MetaTags>
