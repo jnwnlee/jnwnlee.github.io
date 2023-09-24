@@ -24,13 +24,9 @@
     gtag('config', 'G-CV1YKWTKWZ');
   </script>
   <script>
-    // Check if the current URL has a redirect flag
-    if (window.location.search.includes("notfound=1")) {
-      // Remove the redirect flag and serve the custom 404 page
-      window.location.replace(window.location.pathname);
-    }
-  </script>  
-  <script src="/src/index.js"></script>
+    // Redirect to the main page and append the original path as a query parameter
+    window.location.replace(window.location.origin + '/?' + window.location.pathname.substr(1));
+  </script>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
