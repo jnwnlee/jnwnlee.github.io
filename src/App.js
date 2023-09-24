@@ -1,26 +1,42 @@
 import React from 'react';
-import { HashRouter as Router, Redirect, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Redirect, Route, Switch, BrowserRouter, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Blog from './pages/Blog';
 import About from './pages/About';
 import page404 from './pages/404';
 import Thesis from './pages/Thesis';
 
+// const router = createBrowserRouter([
+//     {
+//       path: "/",
+//       element: <Home />,
+//     //   loader: rootLoader,
+//     //   children: [
+//     //     {
+//     //       path: "team",
+//     //       element: <Team />,
+//     //       loader: teamLoader,
+//     //     },
+//     //   ],
+//     },
+//   ]);  
+
 function App() {
     return (
-        <Router basename={process.env.PUBLIC_URL}>
+        <React.StrictMode>
+        {/* <RouterProvider router={router} /> */}
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Switch>
                 <Route
-                    exact
-                    path= "/"
+                    exact path= "/"
                     component={ Home }
                 />
                 <Route
-                    path= "/about"
+                    exact path= "/about"
                     component={ About }
                 />
                 <Route
-                    path= "/blog"
+                    exact path= "/blog"
                     component={ Blog }
                 />
                 {/* <Route
@@ -28,12 +44,13 @@ function App() {
                     component={ Thesis }
                 /> */}
                 <Route
-                    path="/*"
+                    exact path="/*"
                     component={ page404 }
                 />
                 <Redirect to="/" />
             </Switch>
-        </Router>
+        </BrowserRouter>
+        </React.StrictMode>
     );
 }
 

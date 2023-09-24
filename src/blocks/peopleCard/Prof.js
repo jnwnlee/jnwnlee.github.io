@@ -3,6 +3,7 @@ import LinkButton from '../../components/button/LinkButton';
 import DownloadButton from '../../components/button/DownloadButton';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { Fragment } from 'react';
 
 const Prof = ({ProfData}) => { 
     const icons = {
@@ -48,7 +49,7 @@ const Prof = ({ProfData}) => {
                                             /> */}
                                             {Object.keys(item.material).map((key_name, index) => {
                                                     return(
-                                                        <>
+                                                        <Fragment>
                                                         {/* <LinkButton 
                                                             keyword = {key_name} 
                                                             link={item.material[key_name]}
@@ -62,7 +63,7 @@ const Prof = ({ProfData}) => {
                                                         >
                                                             {icons[key_name]}
                                                         </a>
-                                                        </>
+                                                        </Fragment>
                                                     );
                                                 })
                                             }

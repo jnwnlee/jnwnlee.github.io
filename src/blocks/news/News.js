@@ -1,4 +1,4 @@
-import React from 'react';
+import { React, Fragment } from 'react';
 import LinkButton from '../../components/button/LinkButton';
 
 const News = ({NewsInfoData}) => {
@@ -11,13 +11,13 @@ const News = ({NewsInfoData}) => {
                     {NewsInfoData.map((item) => {
                         if (item.link === ""){
                             return (
-                                <>
+                                <Fragment>
                                     <li> {item.date} | {item.contents}</li>
-                                </>
+                                </Fragment>
                             );
                         } else {
                             return (
-                                <>
+                                <Fragment>
                                     <li> {item.date} | {item.contents} 
                                     <LinkButton keyword = "Link"
                                         link={item.link}
@@ -26,7 +26,7 @@ const News = ({NewsInfoData}) => {
                                         backgroundcolor = "has-gray-dark-background-color"
                                     />
                                     </li>
-                                </>
+                                </Fragment>
                             );
                         }
                     } ) }

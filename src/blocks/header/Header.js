@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import Logo from '../../assets/img/logo_jnwn.png'
 
 const Header = () => {
@@ -39,35 +40,56 @@ const Header = () => {
                     <ul className="clearfix list-unstyled">
                         <li className={ "menu-item" + ( splitArr[1] === '#/' ? " current-menu-item" : "" ) }>
                             <h5> <b>
-                                <a 
+                                {/* <a 
                                     title="Home"
                                     className="h1 transform-scale-h border-0 p-0"
                                     style={{color: isHomeHover ? '#1D9EFF' : '#2B2B2B'}}
                                     onMouseEnter={handleHomeMouseEnter}
                                     onMouseLeave={handleHomeMouseLeave}
-                                    href="#/">Home</a>
+                                    href="#/">Home</a> */}
+                                <Link
+                                    title="Home"
+                                    className="h1 transform-scale-h border-0 p-0"
+                                    style={{color: isHomeHover ? '#1D9EFF' : '#2B2B2B'}}
+                                    onMouseEnter={handleHomeMouseEnter}
+                                    onMouseLeave={handleHomeMouseLeave}
+                                    to="/">Home</Link>
                             </b> </h5>
                         </li>
                         <li className={ "menu-item" + ( splitArr[1] === '#/about' ? " current-menu-item" : "" ) }>
                             <h5> <b>
-                                <a 
+                                {/* <a 
                                     title="About" 
                                     className="h1 transform-scale-h border-0 p-0"
                                     style={{color: isAboutHover ? '#FF5A57' : '#2B2B2B'}}
                                     onMouseEnter={handleAboutMouseEnter}
                                     onMouseLeave={handleAboutMouseLeave}
-                                    href="#/about">About</a>
+                                    href="#/about">About</a> */}
+                                <Link 
+                                    title="About" 
+                                    className="h1 transform-scale-h border-0 p-0"
+                                    style={{color: isAboutHover ? '#FF5A57' : '#2B2B2B'}}
+                                    onMouseEnter={handleAboutMouseEnter}
+                                    onMouseLeave={handleAboutMouseLeave}
+                                    to="/about">About</Link>
                             </b> </h5>
                         </li>
                         <li className={ "menu-item" + ( splitArr[1] === '#/blog' ? " current-menu-item" : "" ) }>
                             <h5> <b>
-                                <a 
+                                {/* <a 
                                     title="Blog" 
                                     className="h1 transform-scale-h border-0 p-0"
                                     style={{color: isBlogHover ? '#EFF20D' : '#2B2B2B'}}
                                     onMouseEnter={handleBlogMouseEnter}
                                     onMouseLeave={handleBlogMouseLeave}
-                                    href="#/blog">Blog</a>
+                                    href="#/blog">Blog</a> */}
+                                <Link 
+                                    title="Blog" 
+                                    className="h1 transform-scale-h border-0 p-0"
+                                    style={{color: isBlogHover ? '#EFF20D' : '#2B2B2B'}}
+                                    onMouseEnter={handleBlogMouseEnter}
+                                    onMouseLeave={handleBlogMouseLeave}
+                                    to="/blog">Blog</Link>
                             </b> </h5>
                         </li>
                         {/* <li className={ "menu-item" + ( splitArr[1] === '#/thesis' ? " current-menu-item" : "" ) }>
