@@ -20,31 +20,31 @@ if (originalPath) {
 function App() {
     return (
         <React.StrictMode>
-        <BrowserRouter basename={process.env.PUBLIC_URL} history={history}>
-            <Switch>
-                <Route
-                    exact path= "/"
-                    component={ Home }
-                />
-                <Route
-                    exact path= "/about"
-                    component={ About }
-                />
-                <Route
-                    exact path= "/blog"
-                    component={ Blog }
-                />
-                {/* <Route
-                    path= "/thesis"
-                    component={ Thesis }
-                /> */}
-                <Route
-                    exact path="/*"
-                    component={ page404 }
-                />
-                <Redirect to="/" />
-            </Switch>
-        </BrowserRouter>
+            <BrowserRouter basename={process.env.PUBLIC_URL} history={history}>
+                <Switch>
+                    <Route
+                        exact path= "/"
+                        component={ Home }
+                    />
+                    <Route
+                        exact path= "/about"
+                        component={ About }
+                    />
+                    <Route
+                        exact path= "/blog"
+                        component={ Blog }
+                    />
+                    {/* <Route
+                        path= "/thesis"
+                        component={ Thesis }
+                    /> */}
+                    <Route
+                        exact path="/*"
+                        component={ page404 }
+                    />
+                    <Redirect to="/" />
+                </Switch>
+            </BrowserRouter>
         </React.StrictMode>
     );
 }
