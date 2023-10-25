@@ -1,5 +1,14 @@
 [
     {
+        "id": "6",
+        "institution": "Gaudio Lab",
+        "location": "Seoul, Korea",
+        "position": "Reseaerch Intern, Foley Sound Synthesis (Part-time)",
+        "duration": "Nov 2023 - Jun 2024",
+        "advisor": "Advisor: Keunwoo Choi",
+        "link": "https://www.gaudiolab.com/"
+    },
+    {
         "id": "1",
         "institution": "Bookend",
         "location": "Daejeon, Korea",
