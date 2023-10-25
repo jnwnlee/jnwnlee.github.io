@@ -1,5 +1,17 @@
 [
     {
+        "title": "T-FOLEY: A Controllable Waveform-Domain Diffusion Model For Temporal-Event-Guided Foley Sound Synthesis",
+        "category": "gen audio",
+        "year" : "2023",
+        "Authors": "Yoonjin Chung*, Junwon Lee*, and Juhan Nam (* equal contribution)",
+        "bookTitle": "Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2024 (Submitted)",
+        "bookCategory": "Conferences and Workshops",
+        "material" : {
+            "paper(TBA)": "https://jnwnlee.github.io",
+            "demo": "https://yoonjinxd.github.io/Event-guided_FSS_Demo.github.io/"
+        }
+    },
+    {
         "title": "Foley Sound Synthesis In Waveform Domain With Diffusion Model",
         "category": "gen audio",
         "year" : "2023",
@@ -7,7 +19,7 @@
         "bookTitle": "DCASE 2023 Challenge Task 7 Foley Sound Synthesis Technical Report (15th, 1st model w/o phase reconstruction model)",
         "bookCategory": "Technical Report",
         "material" : {
-            "pdf": "https://dcase.community/challenge2023/task-foley-sound-synthesis-results#ChungKAIST2023"
+            "paper": "https://dcase.community/challenge2023/task-foley-sound-synthesis-results#ChungKAIST2023"
         }
     },
     {
@@ -18,7 +30,7 @@
         "bookTitle": "AAAI-23 Workshop on Creative AI Across Modalities",
         "bookCategory": "Conferences and Workshops",
         "material" : {
-            "pdf": "https://arxiv.org/abs/2301.08145"
+            "paper": "https://arxiv.org/abs/2301.08145"
         }
     },
     {
@@ -29,7 +41,7 @@
         "bookTitle": "2nd Workshop on Natural Language Processing for Music and Spoken Audio (NLP4MusA), 2021",
         "bookCategory": "Conferences and Workshops",
         "material" : {
-            "pdf": "https://arxiv.org/abs/2110.07354"
+            "paper": "https://arxiv.org/abs/2110.07354"
         }
     }
 ]

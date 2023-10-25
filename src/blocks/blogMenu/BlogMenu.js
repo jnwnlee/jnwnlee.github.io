@@ -55,9 +55,8 @@ class BlogMenu extends Component {
 
         return (
             <div className="blogTable spacer p-bottom-lg">
-                <h5> Coming Soon. </h5>
-                 {/* <div className="blogTable-wrapper">
-                    <h3>Blogs</h3>
+                 <div className="blogTable-wrapper">
+                    {/* <h3>Blogs</h3>
                     <ul className="blogTable-filter">
                         { this.state.list.map( ( item, key ) => (   
                             <React.Fragment key={ key }>
@@ -81,7 +80,7 @@ class BlogMenu extends Component {
                                 }
                             </React.Fragment>
                         ) ) }
-                    </ul>
+                    </ul> */}
                 <div className={"blogTable-item-wrapper"} >
                     <div className="blogTable-items" ref={ ( c ) => this.grid = c }>
                         { BlogItemData && BlogItemData.map( ( item, key ) => {
@@ -103,7 +102,7 @@ class BlogMenu extends Component {
                         })}
                     </div>
                 </div>
-                </div> */}
+                </div>
             </div>
         );
     }

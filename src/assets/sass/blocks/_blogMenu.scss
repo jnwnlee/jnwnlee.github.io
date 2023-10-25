@@ -48,8 +48,8 @@ ul.blogTable-filter {
 // blogTable item wrapper
 =============================*/
 .blogTable-wrapper{
-    padding-left: 10rem;
-    padding-right: 10rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 .blogTable-item-wrapper {
     // blogTable items
@@ -57,28 +57,47 @@ ul.blogTable-filter {
         .contents_div{
             display: flex;            
             flex-direction: row;
-            margin-top: 1rem;
-            margin-bottom: 1rem;
+            margin-top: 1.3rem;
+            margin-bottom: 1.3rem;
             p{
                 line-height: 1.3;
                 margin: 0; 
             }
-            p.desc{
-                width: 600px;
-            }
+            // p.desc{
+            //     width: 600px;
+            // }
             p.blogdate{
                 font-family: $font_secondary;
                 color: $body_date_color;
             }
         }
         .img_div{
-            width: 250px;
-            height: 125px;
+            // width: 250px;
+            width: 75vw;
+            height: 100%;// 125px;
             object-fit: cover;
             margin-right: 1rem;
+            border-radius: 0.5rem 0 0 0.5rem !important;
+            padding-right: 2%;
+            // opacity: 1;
+            // @extend .transition-opacity;
+        
+            // &:hover {
+            //     opacity: 1;
+            //     object-fit: cover;
+            //     @extend .transition-opacity;
+            // }
+            
+            // &.object-fit {
+            //     &:before {
+            //         padding-top: 120%;
+            //     }
+            // }
         }
         .info_div{
-            margin: 10px;
+            margin: 20px;
+            width: 150vw;
+            overflow: visible;
         }
         .date_div{
             margin-top: 10px;
@@ -87,6 +106,11 @@ ul.blogTable-filter {
         .blogTable-item {
             left: 0;
             top: 0;
+            border-radius: 0.5rem !important;
+            box-shadow: 2px 5px 50px 5px rgba(200, 200, 200, 0.7);
+            &:hover {
+                box-shadow: 2px 5px 40px 1.5px rgba(255, 102, 0, 0.13);
+            }
             h6 {
                 margin-top : 2rem;
                 margin-bottom: 5px;

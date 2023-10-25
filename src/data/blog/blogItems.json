@@ -1,17 +1,10 @@
 [
     {
-        "_id": "speech_to_music",
-        "title": "Speech to Music through Emotion",
-        "decs": "Automatic speech emotion recognition (SER) can be used as a music recommendation application for content creators. In this paper, our goal is to help creators find music to match the emotion of their speech.",
+        "_id": "foley_sound",
+        "title": "Foley Sound Generation & General Audio Synthesis",
+        "decs": "A controllable waveform-domain diffusion model for temporal-event-guided Foley sound synthesis",
         "category": "research",
-        "url": "https://seungheondoh.github.io/speech_to_music_demo/",
-        "year" : "2022"
-    },{
-        "_id": "musical_word_embedding",
-        "title": "Musical Word Embedding for Music Annotation and Retrieval",
-        "decs": "Musical Word Embedding use a wide spectrum of text corpus from general to music-specific words and defining musical specificity of the corpus as a measure of how the semantics of words is specific to the songs or far from it.",
-        "category": "research",
-        "url": "https://seungheondoh.github.io/musical_word_embedding_demo/",
-        "year" : "2022"
+        "url": "https://yoonjinxd.github.io/Event-guided_FSS_Demo.github.io/",
+        "year" : "2023"
     }
 ]
