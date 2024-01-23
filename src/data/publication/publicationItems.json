@@ -7,7 +7,7 @@
         "bookTitle": "Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2024",
         "bookCategory": "Conferences and Workshops",
         "material" : {
-            "paper(TBA)": "https://jnwnlee.github.io",
+            "paper": "https://arxiv.org/pdf/2401.09294.pdf",
             "demo": "https://yoonjinxd.github.io/Event-guided_FSS_Demo.github.io/"
         }
     },
