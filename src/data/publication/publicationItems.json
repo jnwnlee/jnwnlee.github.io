@@ -8,7 +8,8 @@
         "bookCategory": "Conferences and Workshops",
         "material" : {
             "paper": "https://arxiv.org/pdf/2401.09294.pdf",
-            "demo": "https://yoonjinxd.github.io/Event-guided_FSS_Demo.github.io/"
+            "demo": "https://yoonjinxd.github.io/Event-guided_FSS_Demo.github.io/",
+            "code(TBA)": ""
         }
     },
     {

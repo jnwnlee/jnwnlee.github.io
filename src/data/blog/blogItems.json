@@ -4,7 +4,7 @@
         "title": "Foley Sound Generation & General Audio Synthesis",
         "decs": "A controllable waveform-domain diffusion model for temporal-event-guided Foley sound synthesis",
         "category": "research",
-        "url": "https://yoonjinxd.github.io/Event-guided_FSS_Demo.github.io/",
+        "url": "https://mac.kaist.ac.kr/general_audio_synthesis/general_audio_synthesis.html",
         "year" : "2023"
     }
 ]
