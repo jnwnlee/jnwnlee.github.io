@@ -7,8 +7,9 @@
         "bookTitle": "32nd European Signal Processing Conference (EUSIPCO), 2024 (Submitted)",
         "bookCategory": "Conferences and Workshops",
         "material" : {
-            "paper(TBA)": "",
-            "code": "https://github.com/mathieulagrange/dcaseFadEmbedding"
+            "paper": "https://arxiv.org/abs/2403.17508",
+            "code": "https://github.com/mathieulagrange/dcaseFadEmbedding",
+            "fadtk (FAD toolkit)": "https://github.com/jnwnlee/fadtk"
         }
     },
     {
