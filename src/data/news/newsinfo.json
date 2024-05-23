@@ -1,17 +1,17 @@
 [
     {
         "date":"Apr, 2024",
+        "contents":"FAD toolkit with PANNs model Released!",
+        "link": "https://github.com/jnwnlee/fadtk"
+    },
+    {
+        "date":"Apr, 2024",
         "contents":"(DCASE) Sound Scene Synthesis Challenge launched! (Text-To-Audio)",
         "link": "https://dcase.community/challenge2024/task-sound-scene-synthesis"
     },
     {
         "date":"Mar, 2024",
         "contents":"T-Foley code released!",
-        "link": ""
-    },
-    {
-        "date":"Dec, 2023",
-        "contents":"One paper accepted at ICASSP 2024!",
         "link": ""
     },
     {

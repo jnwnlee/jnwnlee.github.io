@@ -1,8 +1,32 @@
 [
     {
-        "_id": "foley_sound",
-        "title": "Foley Sound Generation & General Audio Synthesis",
+        "_id": "dcase",
+        "title": "DCASE2024 Task7 Sound Scene Synthesis",
+        "decs": "Environmental Sound Scene Synthesis: generating environmental sound given a textual description",
+        "category": "research",
+        "url": "https://dcase.community/challenge2024/task-sound-scene-synthesis",
+        "year" : "2024"
+    },
+    {
+        "_id": "why_tfoley",
+        "title": "Why T-foley?",
         "decs": "A controllable waveform-domain diffusion model for temporal-event-guided Foley sound synthesis",
+        "category": "research",
+        "url": "https://x.com/jnwnlee/status/1769746126650085766",
+        "year" : "2024"
+    },
+    {
+        "_id": "tfoley_demo",
+        "title": "Demonstration on T-Foley",
+        "decs": "Intuitive and Practical demos of T-foley",
+        "category": "research",
+        "url": "https://yoonjinxd.github.io/Event-guided_FSS_Demo.github.io/",
+        "year" : "2024"
+    },
+    {
+        "_id": "foley_sound",
+        "title": "General Audio Synthesis for Foley Sound Generation",
+        "decs": "Generative Audio system should be Controllable",
         "category": "research",
         "url": "https://mac.kaist.ac.kr/general_audio_synthesis/general_audio_synthesis.html",
         "year" : "2023"

@@ -8,7 +8,6 @@
         "bookCategory": "Conferences and Workshops",
         "material" : {
             "paper": "https://arxiv.org/abs/2403.17508",
-            "code": "https://github.com/mathieulagrange/dcaseFadEmbedding",
             "fadtk (FAD toolkit)": "https://github.com/jnwnlee/fadtk"
         }
     },
