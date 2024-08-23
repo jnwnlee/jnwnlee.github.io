@@ -1,5 +1,13 @@
 [
     {
+        "_id": "video-foley",
+        "title": "Demonstration on Video-Foley",
+        "decs": "Two-Stage Video-To-Sound Generation via Temporal Event Condition For Synchronized Foley Sound",
+        "category": "research",
+        "url": "https://jnwnlee.github.io/video-foley-demo/",
+        "year" : "2024"
+    },
+    {
         "_id": "dcase",
         "title": "DCASE2024 Task7 Sound Scene Synthesis",
         "decs": "Environmental Sound Scene Synthesis: generating environmental sound given a textual description",

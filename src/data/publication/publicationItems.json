@@ -1,8 +1,33 @@
 [
     {
+        "title": "Video-Foley: Two-Stage Video-To-Sound Generation via Temporal Event Condition For Foley Sound",
+        "category": "gen audio cv",
+        "year" : "2024",
+        "Authors": "Junwon Lee, Jaekwon Im, Dabin Kim, Juhan Nam",
+        "bookTitle": "arxiv prepring",
+        "bookCategory": "Conferences and Workshops",
+        "material" : {
+            "paper": "https://arxiv.org/abs/2408.11915",
+            "demo": "https://jnwnlee.github.io/video-foley-demo/",
+            "code (TBA)": ""
+        }
+    },
+    {
+        "title": "CONMOD: Controllable Neural Frame-based Modulation Effects",
+        "category": "audio",
+        "year" : "2024",
+        "Authors": "Gyubin Lee, Hounsu Kim, Junwon Lee, Juhan Nam",
+        "bookTitle": "Proceedings of the 27th International Conference on Digital Audio Effects (DAFx24)",
+        "bookCategory": "Conferences and Workshops",
+        "material" : {
+            "paper": "https://arxiv.org/abs/2406.13935",
+            "demo": "https://lgbin81.notion.site/Audio-Demo-for-DAFx-2024-Paper-70705a992d5c4730a1f70fbaf951243b?pvs=4"
+        }
+    },
+    {
         "title": "Correlation of Fr ́echet Audio Distance With Human Perception of Environmental Audio Is Embedding Dependant",
         "category": "gen audio",
-        "year" : "2023",
+        "year" : "2024",
         "Authors": "Modan Tailleur*, Junwon Lee*, Mathieu Lagrange, Keunwoo Choi, Laurie M. Heller, Keisuke Imoto, and Yuki Okamoto (* equal contribution)",
         "bookTitle": "32nd European Signal Processing Conference (EUSIPCO), 2024",
         "bookCategory": "Conferences and Workshops",
