@@ -1,10 +1,33 @@
 [
     {
+        "title": "Pitch-ControlNet: Continuous Pitch Control for Monophonic Instrument Sound Generation",
+        "category": "gen music",
+        "year" : "2024",
+        "Authors": "Dabin Kim*, Junwon Lee*, Minseo Kim*, Juhan Nam",
+        "bookTitle": "Late Breaking Demo, ISMIR 2024",
+        "bookCategory": "Conferences and Workshops",
+        "material" : {
+            "paper(tba)": "https://ismir2024.ismir.net/"
+        }
+    },
+    {
+        "title": "Challenge on Sound Scene Synthesis: Evaluating Text-to-Audio Generation",
+        "category": "gen audio",
+        "year" : "2024",
+        "Authors": "Junwon Lee*, Modan Tailleur*, Laurie M. Heller*, Keunwoo Choi*, Mathieu Lagrange*, Brian McFee, Keisuke Imoto, Yuki Okamoto",
+        "bookTitle": "Audio Imagination: NeurIPS 2024 Workshop AI-Driven Speech, Music, and Sound Generation",
+        "bookCategory": "Conferences and Workshops",
+        "material" : {
+            "paper": "https://arxiv.org/abs/2410.17589",
+            "openreview": "https://openreview.net/forum?id=PuBx0GTOQN"
+        }
+    },
+    {
         "title": "Video-Foley: Two-Stage Video-To-Sound Generation via Temporal Event Condition For Foley Sound",
         "category": "gen audio cv",
         "year" : "2024",
         "Authors": "Junwon Lee, Jaekwon Im, Dabin Kim, Juhan Nam",
-        "bookTitle": "arxiv prepring",
+        "bookTitle": "arxiv preprint",
         "bookCategory": "Conferences and Workshops",
         "material" : {
             "paper": "https://arxiv.org/abs/2408.11915",

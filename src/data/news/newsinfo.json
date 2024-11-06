@@ -1,5 +1,10 @@
 [
     {
+        "date":"Oct, 2024",
+        "contents":"Paper on DCASE Challenge accepted to NeurIPS 2024 Audio Workshop!",
+        "link": "https://openreview.net/forum?id=PuBx0GTOQN"
+    },
+    {
         "date":"Aug, 2024",
         "contents":"Video-Foley: preprint of my recent work on video-to-sound released!",
         "link": "https://jnwnlee.github.io/video-foley-demo/"
