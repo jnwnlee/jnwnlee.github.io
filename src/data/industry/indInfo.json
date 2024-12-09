@@ -1,5 +1,14 @@
 [
     {
+        "id": "7",
+        "institution": "Naver AI Lab",
+        "location": "Seongnam, Korea",
+        "position": "Reseaerch Intern, DCASE Challenge on Text-to-Audio Gen. (Part-time)",
+        "duration": "Dec 2024 - Feb 2025",
+        "advisor": "Advisor: Sanghyuk Chun, Jiyoung Lee",
+        "link": "https://naver-career.gitbook.io/en/teams/clova-cic/ai-lab"
+    },
+    {
         "id": "6",
         "institution": "Gaudio Lab",
         "location": "Seoul, Korea",

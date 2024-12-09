@@ -1,5 +1,15 @@
 [
     {
+        "date":"Dec, 2024",
+        "contents":"Video-Foley model & code released!",
+        "link": "https://github.com/jnwnlee/video-foley"
+    },
+    {
+        "date":"Dec, 2024",
+        "contents":"Starting my Research Internship at Naver AI Labs!",
+        "link": "https://naver-career.gitbook.io/en/teams/clova-cic/ai-lab"
+    },
+    {
         "date":"Oct, 2024",
         "contents":"Paper on DCASE Challenge accepted to NeurIPS 2024 Audio Workshop!",
         "link": "https://openreview.net/forum?id=PuBx0GTOQN"
