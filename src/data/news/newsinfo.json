@@ -1,5 +1,10 @@
 [
     {
+        "date":"Mar, 2025",
+        "contents":"Starting my PhD @ KAIST GSAI, MAC Lab!",
+        "link": "https://github.com/jnwnlee/video-foley"
+    },
+    {
         "date":"Dec, 2024",
         "contents":"Video-Foley model & code released!",
         "link": "https://github.com/jnwnlee/video-foley"
@@ -20,19 +25,9 @@
         "link": "https://jnwnlee.github.io/video-foley-demo/"
     },
     {
-        "date":"Jun, 2024",
-        "contents":"(DCASE) Sound Scene Synthesis Challenge Result Released!",
-        "link": "https://dcase.community/challenge2024/task-sound-scene-synthesis-results"
-    },
-    {
         "date":"Apr, 2024",
         "contents":"FAD toolkit with PANNs model Released!",
         "link": "https://github.com/jnwnlee/fadtk"
-    },
-    {
-        "date":"Apr, 2024",
-        "contents":"(DCASE) Sound Scene Synthesis Challenge launched! (Text-To-Audio)",
-        "link": "https://dcase.community/challenge2024/task-sound-scene-synthesis"
     },
     {
         "date":"Mar, 2024",

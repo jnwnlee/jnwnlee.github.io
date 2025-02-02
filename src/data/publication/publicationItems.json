@@ -1,5 +1,17 @@
 [
     {
+        "title": "Sound Scene Synthesis at the DCASE 2024 Challenge",
+        "category": "gen audio",
+        "year" : "2024",
+        "Authors": "Mathieu Lagrange, Junwon Lee, Modan Tailleur, Laurie M. Heller, Keunwoo Choi, Brian McFee, Keisuke Imoto, Yuki Okamoto",
+        "bookTitle": "arxiv preprint",
+        "bookCategory": "Conferences and Workshops",
+        "material" : {
+            "paper": "https://arxiv.org/pdf/2501.08587",
+            "website": "https://dcase.community/challenge2024/task-sound-scene-synthesis"
+        }
+    },
+    {
         "title": "Pitch-ControlNet: Continuous Pitch Control for Monophonic Instrument Sound Generation",
         "category": "gen music",
         "year" : "2024",
@@ -32,7 +44,7 @@
         "material" : {
             "paper": "https://arxiv.org/abs/2408.11915",
             "demo": "https://jnwnlee.github.io/video-foley-demo/",
-            "code (TBA)": ""
+            "code": "https://github.com/jnwnlee/video-foley"
         }
     },
     {

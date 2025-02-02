@@ -2,12 +2,19 @@
     {
         "id": "1",
         "school": "KAIST (Korea Advanced Institute of Science and Technology)",
-        "position": "MSc in Graduate School of AI",
-        "duration": "2023 - present",
+        "position": "PhD in Graduate School of AI",
+        "duration": "2025 - present",
         "advisor": "Music and Audio Computing Lab | Prof. Juhan Nam"
     },
     {
         "id": "2",
+        "school": "KAIST (Korea Advanced Institute of Science and Technology)",
+        "position": "MSc in Graduate School of AI",
+        "duration": "2023 - 2024",
+        "advisor": "Music and Audio Computing Lab | Prof. Juhan Nam"
+    },
+    {
+        "id": "3",
         "school": "KAIST (Korea Advanced Institute of Science and Technology)",
         "position": "B.S. in Electrical Engineering (Summa Cum Laude)",
         "duration": "2018 - 2022"
