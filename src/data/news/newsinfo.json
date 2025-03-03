@@ -1,6 +1,11 @@
 [
     {
         "date":"Mar, 2025",
+        "contents":"KAD Toolkit (kadtk) released!",
+        "link": "https://github.com/YoonjinXD/kadtk"
+    },
+    {
+        "date":"Mar, 2025",
         "contents":"Starting my PhD @ KAIST GSAI, MAC Lab!",
         "link": "https://github.com/jnwnlee/video-foley"
     },
@@ -18,21 +23,6 @@
         "date":"Oct, 2024",
         "contents":"Paper on DCASE Challenge accepted to NeurIPS 2024 Audio Workshop!",
         "link": "https://openreview.net/forum?id=PuBx0GTOQN"
-    },
-    {
-        "date":"Aug, 2024",
-        "contents":"Video-Foley: preprint of my recent work on video-to-sound released!",
-        "link": "https://jnwnlee.github.io/video-foley-demo/"
-    },
-    {
-        "date":"Apr, 2024",
-        "contents":"FAD toolkit with PANNs model Released!",
-        "link": "https://github.com/jnwnlee/fadtk"
-    },
-    {
-        "date":"Mar, 2024",
-        "contents":"T-Foley code released!",
-        "link": ""
     },
     {
         "date":"",

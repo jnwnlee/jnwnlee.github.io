@@ -29,7 +29,7 @@
         "filter": "gen"
     },{
         "id": "7",
-        "title": "Annotation and Retrieval",
-        "filter": "ann_ret"
+        "title": "Evaluation",
+        "filter": "eval"
     }
 ]

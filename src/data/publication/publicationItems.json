@@ -1,7 +1,19 @@
 [
     {
+        "title": "KAD: No More FAD! An Effective and Efficient Evaluation Metric for Audio Generation",
+        "category": "gen audio eval",
+        "year" : "2025",
+        "Authors": "Yoonjin Chung*, Pilsun Eu*, Junwon Lee, Keunwoo Choi, Juhan Nam, Ben Sangbae Chon (* equal contribution)",
+        "bookTitle": "arxiv preprint",
+        "bookCategory": "Conferences and Workshops",
+        "material" : {
+            "paper": "https://arxiv.org/abs/2502.15602",
+            "kadtk (KAD toolkit)": "https://github.com/YoonjinXD/kadtk"
+        }
+    },
+    {
         "title": "Sound Scene Synthesis at the DCASE 2024 Challenge",
-        "category": "gen audio",
+        "category": "gen audio eval",
         "year" : "2024",
         "Authors": "Mathieu Lagrange, Junwon Lee, Modan Tailleur, Laurie M. Heller, Keunwoo Choi, Brian McFee, Keisuke Imoto, Yuki Okamoto",
         "bookTitle": "arxiv preprint",
@@ -24,7 +36,7 @@
     },
     {
         "title": "Challenge on Sound Scene Synthesis: Evaluating Text-to-Audio Generation",
-        "category": "gen audio",
+        "category": "gen audio eval",
         "year" : "2024",
         "Authors": "Junwon Lee*, Modan Tailleur*, Laurie M. Heller*, Keunwoo Choi*, Mathieu Lagrange*, Brian McFee, Keisuke Imoto, Yuki Okamoto",
         "bookTitle": "Audio Imagination: NeurIPS 2024 Workshop AI-Driven Speech, Music, and Sound Generation",
@@ -61,7 +73,7 @@
     },
     {
         "title": "Correlation of Fr ́echet Audio Distance With Human Perception of Environmental Audio Is Embedding Dependant",
-        "category": "gen audio",
+        "category": "gen audio eval",
         "year" : "2024",
         "Authors": "Modan Tailleur*, Junwon Lee*, Mathieu Lagrange, Keunwoo Choi, Laurie M. Heller, Keisuke Imoto, and Yuki Okamoto (* equal contribution)",
         "bookTitle": "32nd European Signal Processing Conference (EUSIPCO), 2024",
