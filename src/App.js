@@ -39,7 +39,7 @@ function App() {
                         component={ Thesis }
                     /> */}
                     <Route
-                        exact path="/*"
+                        // exact path="/*"
                         component={ page404 }
                     />
                     <Redirect to="/" />

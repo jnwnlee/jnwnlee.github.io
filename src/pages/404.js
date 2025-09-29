@@ -39,7 +39,7 @@ const page404 = () => {
 
                 <div id="page-content" className="block">
                     <div className="wrapper">
-                        <p className="spacer p-top-lg w-50 m-0">404 Error...</p>
+                        <p className="spacer p-top-lg w-50 m-0">404 Error...🫥</p>
 
                         <div className="spacer p-top-xs d-xl-flex d-lg-flex d-md-flex justify-content-between block m-top-extrasmall">
                             <div className="align-self-center w-50">
