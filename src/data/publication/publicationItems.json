@@ -1,10 +1,23 @@
 [
     {
+        "title": "Hear What Matters! Text-conditioned Selective Video-to-Audio Generation",
+        "category": "gen audio cv",
+        "year" : "2025",
+        "Authors": "Junwon Lee, Juhan Nam, Jiyoung Lee",
+        "bookTitle": "arxiv preprint",
+        "bookCategory": "Conferences and Workshops",
+        "material" : {
+            "paper": "https://arxiv.org/abs/2512.02650",
+            "demo": "https://jnwnlee.github.io/selva-demo/",
+            "code": "https://github.com/jnwnlee/selva"
+        }
+    },
+    {
         "title": "KAD: No More FAD! An Effective and Efficient Evaluation Metric for Audio Generation",
         "category": "gen audio eval",
         "year" : "2025",
         "Authors": "Yoonjin Chung*, Pilsun Eu*, Junwon Lee, Keunwoo Choi, Juhan Nam, Ben Sangbae Chon (* equal contribution)",
-        "bookTitle": "arxiv preprint",
+        "bookTitle": "ICML 2025 Workshop on Machine Learning for Audio",
         "bookCategory": "Conferences and Workshops",
         "material" : {
             "paper": "https://arxiv.org/abs/2502.15602",

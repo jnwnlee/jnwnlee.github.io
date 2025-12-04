@@ -1,5 +1,10 @@
 [
     {
+        "date":"Dec, 2025",
+        "contents":"New paper on Selective Video-to-Audio Generation!",
+        "link": "https://jnwnlee.github.io/selva-demo/"
+    },
+    {
         "date":"Mar, 2025",
         "contents":"KAD Toolkit (kadtk) released!",
         "link": "https://github.com/YoonjinXD/kadtk"
