@@ -48,7 +48,7 @@
         "location": "KAIST (Korea Advanced Institute of Science and Technology)",
         "position": "Research Intern (Individual Study), Beat tracking, Playlist Captioning",
         "duration": "Sep 2020 - Aug 2021, Jan 2022 - Dec 2022",
-        "advisor": "Advisor: Taejun Kim, Seungheon Doh, Prof. Juhan Nam (CulturalTechnology dept., affiliated faculty of AI dept.)",
+        "advisor": "Advisor: Taejun Kim, Seungheon Doh, Prof. Juhan Nam",
         "link": "https://mac.kaist.ac.kr"
     },
     {
@@ -57,7 +57,7 @@
         "location": "KAIST (Korea Advanced Institute of Science and Technology)",
         "position": "Research Intern (Individual Study), Fairness in ML",
         "duration": "Jul 2020 - Aug 2020, Mar 2021 - Jun 2021",
-        "advisor": "Advisor: Ki Hyun Tae, Yuji Roh, Prof. Steven Euijong Whang (ElectricalEngineering dept., affiliated faculty of AI dept.)",
+        "advisor": "Advisor: Kihyun Tae, Yuji Roh, Prof. Steven Euijong Whang",
         "link": "https://sites.google.com/view/whanglab/di-lab"
     }
 ]
