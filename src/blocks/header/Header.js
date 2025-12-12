@@ -32,7 +32,7 @@ const Header = () => {
                     title="Home"
                     className=''
                     to="/"
-                    style={{width: 14+'rem'}}>
+                    style={{width: '8rem'}}>
                         <img src={Logo} alt='jnwn'/>
                 </Link>
             </div>
