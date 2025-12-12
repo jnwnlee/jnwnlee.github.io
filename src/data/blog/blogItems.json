@@ -1,5 +1,13 @@
 [
     {
+        "_id": "selva",
+        "title": "Demonstration on SelVA",
+        "decs": "Hear What Matters! Text-conditioned Selective Video-to-Audio Generation",
+        "category": "research",
+        "url": "https://jnwnlee.github.io/selva-demo/",
+        "year" : "2025"
+    },
+    {
         "_id": "video-foley",
         "title": "Demonstration on Video-Foley",
         "decs": "Two-Stage Video-To-Sound Generation via Temporal Event Condition For Synchronized Foley Sound",
