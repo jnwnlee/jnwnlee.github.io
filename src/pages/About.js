@@ -8,13 +8,16 @@ import Prof from '../blocks/peopleCard/Prof'
 import ProfData from '../data/people/prof.json'
 
 import Hnr from '../blocks/honor/Hnr';
-import HnrInfoData from '../data/honors/hnrInfo.json';
+import HnrInfoData from '../data/honor/hnrInfo.json';
 
 import Edu from "../blocks/education/Edu"
 import EduInfoData from '../data/education/eduInfo.json';
 
 import Ind from "../blocks/industry/Ind"
 import IndInfoData from '../data/industry/indInfo.json';
+
+import Service from '../blocks/service/Service';
+import ServiceInfoData from '../data/service/serviceInfo.json';
 
 const About = () => {
     document.body.classList.add( 'about' );
@@ -44,6 +47,7 @@ const About = () => {
                 <Prof ProfData={ProfData}/>
                 <Ind IndInfoData = {IndInfoData}/>
                 <Edu EduInfoData = {EduInfoData}/>
+                <Service ServiceInfoData = {ServiceInfoData}/>
                 <Hnr HnrInfoData = {HnrInfoData}/>
                 <div className="wrapper">
                     

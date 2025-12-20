@@ -1,17 +1,19 @@
 import React from 'react';
 import LinkButton from '../../components/button/LinkButton'
 
-const Hnr = ({HnrInfoData}) => {
-    const Honors = HnrInfoData['Honors']
+const Service = ({ServiceInfoData}) => {
+    const Service = ServiceInfoData['Service']
+    // const Talk = ServiceInfoData['Talk']
+    // const Teaching = ServiceInfoData['Teaching']
     return (
         <section id="page-content" className="spacer p-bottom-lg">
             <div id="blog">
                 <div className="wrapper">
-                    <h4>Award & Honors</h4>
-                    <div className="honors">
+                    <h4>Academic Service</h4>
+                    <div className="services">
                     
-                    {/* <h5>Honors</h5> */}
-                    {Honors.map((item) => {
+                    {/* <h5>Service</h5> */}
+                    {Service.map((item) => {
                         if (item.link === ""){
                             return (
                                 <>
@@ -46,4 +48,4 @@ const Hnr = ({HnrInfoData}) => {
     );
 };
 
-export default Hnr;
+export default Service;
