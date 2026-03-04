@@ -19,4 +19,16 @@ header {
             }
         }
     }
+
+    .header-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        gap: 1.5rem;
+
+        nav.menu-third {
+            margin-left: auto;
+            align-self: flex-end;
+        }
+    }
 }

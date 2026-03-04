@@ -20,7 +20,7 @@ const Header = () => {
 
     return (
         <header id="header" className="site-header">
-            <div className='wrapper d-flex justify-content-start site-title'>
+            <div className='wrapper d-flex justify-content-between align-items-end site-title header-row'>
                 {/* <a
                     title="Home"
                     className=''
@@ -35,14 +35,6 @@ const Header = () => {
                     style={{width: '8rem'}}>
                         <img src={Logo} alt='jnwn'/>
                 </Link>
-            </div>
-            <div className="wrapper d-flex justify-content-start">
-                {/*
-                <div className="align-self-center">
-                    <p>  </p> 
-                </div>
-                */}
-
                 <nav className="menu-third">
                     <ul className="clearfix list-unstyled">
                         <li className={ "menu-item" + ( splitArr[1] === '#/' ? " current-menu-item" : "" ) }>
