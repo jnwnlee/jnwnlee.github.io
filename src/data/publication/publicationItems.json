@@ -2,9 +2,9 @@
     {
         "title": "Hear What Matters! Text-conditioned Selective Video-to-Audio Generation",
         "category": "gen audio cv",
-        "year" : "2025",
+        "year" : "2026",
         "Authors": "Junwon Lee, Juhan Nam, Jiyoung Lee",
-        "bookTitle": "arxiv preprint",
+        "bookTitle": "CVPR 2026",
         "bookCategory": "Conferences and Workshops",
         "material" : {
             "paper": "https://arxiv.org/abs/2512.02650",
