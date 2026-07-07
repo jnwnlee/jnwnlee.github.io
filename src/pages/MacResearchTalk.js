@@ -28,8 +28,8 @@ const MacResearchTalk = () => {
             <Header/>
 
             <main id="main" className="site-main">
-                <div className="wrapper spacer p-top-lg p-bottom-lg">
-                    <h2>MAC Lab Research Talk</h2>
+                <div className="wrapper spacer">
+                    <h2 class="researchTalk-title">MAC Lab Research Talk</h2>
                     <p>
                         Building a community that shares technology, applications, and ideas in audio and music AI.
                     </p>

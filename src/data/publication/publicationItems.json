@@ -1,5 +1,43 @@
 [
     {
+        "title": "TuneJury: An Open Metric for Improving Music Generation Preference Alignment",
+        "category": "gen music eval",
+        "year" : "2026",
+        "Authors": "Yonghyun Kim, Junwon Lee, Haiwen Xia, Yinghao Ma, Junghyun Koo, Koichi Saito, Yuki Mitsufuji, Chris Donahue",
+        "bookTitle": "arxiv preprint",
+        "bookCategory": "Conferences and Workshops",
+        "material" : {
+            "paper": "https://arxiv.org/pdf/2606.17006",
+            "demo": "https://huggingface.co/spaces/TuneJury/landing",
+            "code": "https://github.com/yonghyunk1m/TuneJury"
+        }
+    },
+    {
+        "title": "AdaTT: Text-Guided Instrument Timbre Transfer with Target-Adaptive Structural Control",
+        "category": "gen music",
+        "year" : "2026",
+        "Authors": "Dabin Kim, Junwon Lee, Juhan Nam",
+        "bookTitle": "Interspeech 2026",
+        "bookCategory": "Conferences and Workshops",
+        "material" : {
+            "paper": "https://arxiv.org/pdf/2606.15813",
+            "demo": "https://dabinkim0.github.io/publications/adatt/"
+        }
+    },
+    {
+        "title": "CounterFlow: A Two-Phase Inference-Time Sampling for Counterfactual Video Foley Generation",
+        "category": "gen audio cv",
+        "year" : "2026",
+        "Authors": "Gyubin Lee, Junwon Lee, Juhan Nam",
+        "bookTitle": "CVPR 2026 Sight and Sound Workshop",
+        "bookCategory": "Conferences and Workshops",
+        "material" : {
+            "paper": "https://arxiv.org/pdf/2605.18916",
+            "demo": "https://gyubin-lee.github.io/counterflow-demo/",
+            "code": "https://github.com/Gyubin-Lee/CounterFlow"
+        }
+    },
+    {
         "title": "Hear What Matters! Text-conditioned Selective Video-to-Audio Generation",
         "category": "gen audio cv",
         "year" : "2026",
@@ -34,17 +72,6 @@
         "material" : {
             "paper": "https://arxiv.org/pdf/2501.08587",
             "website": "https://dcase.community/challenge2024/task-sound-scene-synthesis"
-        }
-    },
-    {
-        "title": "Pitch-ControlNet: Continuous Pitch Control for Monophonic Instrument Sound Generation",
-        "category": "gen music",
-        "year" : "2024",
-        "Authors": "Dabin Kim*, Junwon Lee*, Minseo Kim*, Juhan Nam",
-        "bookTitle": "Late Breaking Demo, ISMIR 2024",
-        "bookCategory": "Conferences and Workshops",
-        "material" : {
-            "paper": "https://ismir2024program.ismir.net/lbd_480.html"
         }
     },
     {
