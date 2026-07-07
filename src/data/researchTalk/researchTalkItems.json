@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Toward Grounded Audio-Visual Generation: From Speech Dynamics to Physical Sound",
+        "speaker": "Hyun-Bin Oh",
+        "speakerUrl": "https://hyunbin70.github.io/",
+        "date": "2026.03.26",
+        "category": "tech",
+        "image": "/assets/blog/mac-research-talk/260326.jpg"
+    },
+    {
+        "title": "Bridging Audio and Vision: From Environmental Soundscapes to Speech-driven Faces",
+        "speaker": "Sung-Bin Kim",
+        "speakerUrl": "https://sites.google.com/view/kimsungbin",
+        "date": "2025.12.05",
+        "category": "tech",
+        "image": "/assets/blog/mac-research-talk/251205.webp"
+    },
+    {
+        "title": "소리 시각화 자막: AI를 활용한 소리 뉘앙스 접근성 지원 | Beyond Sound: Al-based Multimodal Music Systems for d/Deaf and Hard-of-Hearing Individuals from Appreciation to Creation and Therapy",
+        "speaker": "JooYeong Kim | Youjin Choi",
+        "speakerUrl": "https://iit.gist.ac.kr/sci/index.do",
+        "date": "2025.08.21",
+        "category": "application",
+        "image": "/assets/blog/mac-research-talk/250821.webp"
+    },
+    {
+        "title": "Learning Robust Audio-Language Representations under Data Imbalance | Investigating the Neural and Perceptual Mechanisms of Musical Illusion",
+        "speaker": "Yoori Oh | Ahyeon Choi",
+        "speakerUrl": "https://snu-marg.notion.site/",
+        "date": "2025.08.14",
+        "category": "tech",
+        "image": "/assets/blog/mac-research-talk/250814.webp"
+    },
+    {
+        "title": "Towards Multimodal Understanding and Generation of Auditory Scenes",
+        "speaker": "Jaeyeon Kim",
+        "speakerUrl": "https://jaeyeonkim99.github.io/",
+        "date": "2025.08.07",
+        "category": "tech",
+        "image": "/assets/blog/mac-research-talk/250807.webp"
+    },
+    {
+        "title": "Multi-modal speech synthesis using face-based speaker identity with enhanced pitch consistency",
+        "speaker": "Jaejun Lee",
+        "speakerUrl": "",
+        "date": "2025.07.24",
+        "category": "tech",
+        "image": "/assets/blog/mac-research-talk/250724.webp"
+    }
+]

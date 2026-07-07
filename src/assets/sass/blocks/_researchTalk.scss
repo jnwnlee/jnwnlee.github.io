@@ -1,0 +1,185 @@
+//=================================================
+// Research talk
+//=================================================
+
+.macResearchTalk-overview-list {
+    margin-top: 1rem;
+}
+
+ul.researchTalk-filter {
+    display: table;
+    width: 100%;
+    text-align: left;
+    margin: 0 0 1rem;
+
+    li {
+        display: inline-block;
+        margin-right: 1.5rem;
+        margin-bottom: 0.5rem;
+
+        @media #{$media_md} {
+            margin-left: 0.30rem;
+            margin-right: 0.30rem;
+        }
+
+        a, span {
+            color: $publicationTable_filter_button_color;
+            border: 0;
+            padding: 0;
+            font-size: 0.9rem;
+            margin-bottom: 7px;
+        }
+
+        span {
+            &.click {
+                &:hover {
+                    color: $publicationTable_filter_button_hover_color;
+                }
+            }
+
+            &.active {
+                color: $publicationTable_filter_button_active_color;
+
+                &:hover {
+                    color: $publicationTable_filter_button_active_color;
+                }
+            }
+        }
+    }
+}
+
+.researchTalk-item-wrapper {
+    .researchTalk-items {
+        margin-left: 0;
+        margin-right: 0;
+
+        .researchTalk-item {
+            left: 0;
+            top: 0;
+            display: flex;
+            flex-direction: row;
+            box-sizing: border-box;
+            width: 100%;
+            margin-bottom: 1.5rem;
+            padding: 0;
+            cursor: pointer;
+            @extend .transition-all-none;
+
+            @media #{$media_md} {
+                flex-direction: column;
+            }
+
+            .researchTalk-image {
+                flex: 0 0 35%;
+                aspect-ratio: 16 / 9;
+                overflow: hidden;
+                background-color: rgba(245, 245, 245, 0.8);
+                border-radius: 0.5rem 0 0 0.5rem !important;
+
+                @media #{$media_md} {
+                    flex-basis: auto;
+                    border-radius: 0.5rem 0.5rem 0 0 !important;
+                }
+
+                img {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                    transform: perspective(1px) scale(1) translateZ(0);
+                    backface-visibility: hidden;
+                    @extend .transition-all;
+                }
+            }
+
+            .researchTalk-info {
+                flex: 1 1 auto;
+                padding: 1rem;
+                border-radius: 0 0.5rem 0.5rem 0 !important;
+                box-shadow: 2px 5px 50px 5px rgba(200, 200, 200, 0.7);
+
+                @media #{$media_md} {
+                    border-radius: 0 0 0.5rem 0.5rem !important;
+                }
+            }
+
+            &:hover {
+                .researchTalk-image {
+                    img {
+                        transform: perspective(1px) scale(1.05) translateZ(0);
+                    }
+                }
+
+                .researchTalk-info {
+                    box-shadow: 2px 5px 40px 1.5px rgba(255, 102, 0, 0.13);
+                }
+            }
+
+            h6 {
+                margin-bottom: 0.5em;
+            }
+
+            p {
+                font-size: 0.9rem;
+                margin-bottom: 0;
+            }
+
+            .researchTalk-speaker {
+                margin-bottom: 0.25rem;
+            }
+
+            .researchTalk-date {
+                font-family: $font_secondary;
+                color: $body_date_color;
+                margin-bottom: 0.35rem;
+            }
+        }
+    }
+}
+
+.researchTalk-overlay {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.78);
+
+    img {
+        display: block;
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        max-height: 100%;
+        object-fit: contain;
+    }
+}
+
+.researchTalk-overlay-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 1;
+    width: auto;
+    height: auto;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    color: #F9F7F5;
+    cursor: pointer;
+    font-family: $font_secondary_bold;
+    font-size: 2.5rem;
+    line-height: 1;
+    text-align: center;
+    @extend .transition-all;
+
+    &:hover {
+        opacity: 0.8;
+        transform: scale(1.05);
+    }
+}

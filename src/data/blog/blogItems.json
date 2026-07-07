@@ -1,5 +1,13 @@
 [
     {
+        "_id": "mac-research-talk",
+        "title": "MAC Lab Research Talk",
+        "decs": "Building a community that shares technology, applications, and ideas in audio and music AI.",
+        "category": "research",
+        "url": "https://jnwnlee.github.io/mac-research-talk/",
+        "year" : "2026"
+    },
+    {
         "_id": "selva",
         "title": "Demonstration on SelVA",
         "decs": "Hear What Matters! Text-conditioned Selective Video-to-Audio Generation",

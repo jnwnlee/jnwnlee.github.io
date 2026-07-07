@@ -60,7 +60,8 @@
     "include": [
       "/",
       "/about",
-      "/blog"
+      "/blog",
+      "/mac-research-talk"
     ]
   },
   "eslintConfig": {
