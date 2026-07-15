@@ -11,5 +11,19 @@
             "contents":"ISMIR 2025, KSMI 2025, DCASE Challenge Task 7 2024.",
             "link": ""
         }
+    ],
+    "Talk" : [
+        {
+            "date":"7/13, 2026",
+            "title":"Hear what matters! Text-conditioned selective video-to-audio generation",
+            "contents":"KSMI Post-ICML Workshop",
+            "link": "https://music-informatics.kr/workshops/2026-post-icml"
+        },
+        {
+            "date":"2/19, 2026",
+            "title":"Controllable Audio Generation with Multimodal Conditions",
+            "contents":"Multimodal AI Lab, Ewha Womans University",
+            "link": "http://mmai.ewha.ac.kr/"
+        }
     ]
 }

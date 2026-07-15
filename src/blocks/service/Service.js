@@ -3,13 +3,13 @@ import LinkButton from '../../components/button/LinkButton'
 
 const Service = ({ServiceInfoData}) => {
     const Service = ServiceInfoData['Service']
-    // const Talk = ServiceInfoData['Talk']
+    const Talk = ServiceInfoData['Talk'] || []
     // const Teaching = ServiceInfoData['Teaching']
     return (
         <section id="page-content" className="spacer p-bottom-lg">
             <div id="blog">
                 <div className="wrapper">
-                    <h4>Academic Service</h4>
+                    <h4>Academic Service, Talk</h4>
                     <div className="services">
                     
                     {/* <h5>Service</h5> */}
@@ -41,6 +41,16 @@ const Service = ({ServiceInfoData}) => {
                             );
                         }
                     } ) }
+                    {Talk.length > 0 ? (
+                        <>
+                            <h6>Talks</h6>
+                            {Talk.map((item) => (
+                                <p className="services-talk" key={`${item.title}-${item.date}`}>
+                                    {item.link === "" ? item.title : <a className="services-talk-link" href={item.link}>{item.title}</a>}, {item.contents} | {item.date}
+                                </p>
+                            ))}
+                        </>
+                    ) : ""}
                     </div>
                 </div>
             </div>
