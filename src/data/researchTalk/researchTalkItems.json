@@ -1,5 +1,29 @@
 [
     {
+        "title": "From Metadata to Al Disclosure: How Global Music Distribution Works",
+        "speaker": "Yusik Chung",
+        "speakerUrl": "https://www.fluxus.co.kr/",
+        "date": "2026.08.27",
+        "category": "content",
+        "image": "/assets/blog/mac-research-talk/260827.webp" 
+    },
+    {
+        "title": "Can Al Judge Good Music? Toward Human-Centric Evaluation of Music Generation",
+        "speaker": "Yonghyun Kim",
+        "speakerUrl": "https://yonghyunk1m.notion.site/",
+        "date": "2026.08.11",
+        "category": "tech",
+        "image": "/assets/blog/mac-research-talk/260811.webp"
+    },
+    {
+        "title": "Everything About Music Curation Channels: From the Growth Strategy of ‘@always_digging’ to Short-Form Consumption Trends",
+        "speaker": "Taehyeon Kwon",
+        "speakerUrl": "https://www.instagram.com/always_digging/",
+        "date": "2026.07.23",
+        "category": "content",
+        "image": "/assets/blog/mac-research-talk/260723.webp"
+    },
+    {
         "title": "Toward Grounded Audio-Visual Generation: From Speech Dynamics to Physical Sound",
         "speaker": "Hyun-Bin Oh",
         "speakerUrl": "https://hyunbin70.github.io/",
