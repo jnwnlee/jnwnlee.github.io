@@ -1,6 +1,7 @@
 [
     {
         "title": "TuneJury: An Open Metric for Improving Music Generation Preference Alignment",
+        "selected": false,
         "category": "gen music eval",
         "year" : "2026",
         "Authors": "Yonghyun Kim, Junwon Lee, Haiwen Xia, Yinghao Ma, Junghyun Koo, Koichi Saito, Yuki Mitsufuji, Chris Donahue",
@@ -18,6 +19,7 @@
     },
     {
         "title": "AdaTT: Text-Guided Instrument Timbre Transfer with Target-Adaptive Structural Control",
+        "selected": false,
         "category": "gen music",
         "year" : "2026",
         "Authors": "Dabin Kim, Junwon Lee, Juhan Nam",
@@ -34,6 +36,7 @@
     },
     {
         "title": "CounterFlow: A Two-Phase Inference-Time Sampling for Counterfactual Video Foley Generation",
+        "selected": false,
         "category": "gen audio cv",
         "year" : "2026",
         "Authors": "Gyubin Lee, Junwon Lee, Juhan Nam",
@@ -51,6 +54,7 @@
     },
     {
         "title": "Hear What Matters! Text-conditioned Selective Video-to-Audio Generation",
+        "selected": true,
         "category": "gen audio cv",
         "year" : "2026",
         "Authors": "Junwon Lee, Juhan Nam, Jiyoung Lee",
@@ -69,6 +73,7 @@
     },
     {
         "title": "KAD: No More FAD! An Effective and Efficient Evaluation Metric for Audio Generation",
+        "selected": true,
         "category": "gen audio eval",
         "year" : "2025",
         "Authors": "Yoonjin Chung*, Pilsun Eu*, Junwon Lee, Keunwoo Choi, Juhan Nam, Ben Sangbae Chon (* equal contribution)",
@@ -85,39 +90,8 @@
         }
     },
     {
-        "title": "Sound Scene Synthesis at the DCASE 2024 Challenge",
-        "category": "gen audio eval",
-        "year" : "2024",
-        "Authors": "Mathieu Lagrange, Junwon Lee, Modan Tailleur, Laurie M. Heller, Keunwoo Choi, Brian McFee, Keisuke Imoto, Yuki Okamoto",
-        "bookTitle": "arxiv preprint",
-        "bookCategory": "Conferences and Workshops",
-        "details": [
-            "Report on text-to-audio generation systems and evaluation results from the DCASE 2024 Sound Scene Synthesis Challenge.",
-            "Role: Organizing committee member."
-        ],
-        "material" : {
-            "paper": "https://arxiv.org/pdf/2501.08587",
-            "website": "https://dcase.community/challenge2024/task-sound-scene-synthesis"
-        }
-    },
-    {
-        "title": "Challenge on Sound Scene Synthesis: Evaluating Text-to-Audio Generation",
-        "category": "gen audio eval",
-        "year" : "2024",
-        "Authors": "Junwon Lee*, Modan Tailleur*, Laurie M. Heller*, Keunwoo Choi*, Mathieu Lagrange*, Brian McFee, Keisuke Imoto, Yuki Okamoto",
-        "bookTitle": "Audio Imagination: NeurIPS 2024 Workshop AI-Driven Speech, Music, and Sound Generation",
-        "bookCategory": "Conferences and Workshops",
-        "details": [
-            "Benchmarking the compositional generation capabilities of text-to-audio models, including DCASE challenge participants and other state-of-the-art models.",
-            "Role: Task design, baseline system and evaluation implementation, result analysis."
-        ],
-        "material" : {
-            "paper": "https://arxiv.org/abs/2410.17589",
-            "openreview": "https://openreview.net/forum?id=PuBx0GTOQN"
-        }
-    },
-    {
         "title": "Video-Foley: Two-Stage Video-To-Sound Generation via Temporal Event Condition For Foley Sound",
+        "selected": true,
         "category": "gen audio cv",
         "year" : "2024",
         "Authors": "Junwon Lee, Jaekwon Im, Dabin Kim, Juhan Nam",
@@ -135,7 +109,42 @@
         }
     },
     {
+        "title": "Sound Scene Synthesis at the DCASE 2024 Challenge",
+        "selected": false,
+        "category": "gen audio eval",
+        "year" : "2024",
+        "Authors": "Mathieu Lagrange, Junwon Lee, Modan Tailleur, Laurie M. Heller, Keunwoo Choi, Brian McFee, Keisuke Imoto, Yuki Okamoto",
+        "bookTitle": "arxiv preprint",
+        "bookCategory": "Conferences and Workshops",
+        "details": [
+            "Report on text-to-audio generation systems and evaluation results from the DCASE 2024 Sound Scene Synthesis Challenge.",
+            "Role: Organizing committee member."
+        ],
+        "material" : {
+            "paper": "https://arxiv.org/pdf/2501.08587",
+            "website": "https://dcase.community/challenge2024/task-sound-scene-synthesis"
+        }
+    },
+    {
+        "title": "Challenge on Sound Scene Synthesis: Evaluating Text-to-Audio Generation",
+        "selected": true,
+        "category": "gen audio eval",
+        "year" : "2024",
+        "Authors": "Junwon Lee*, Modan Tailleur*, Laurie M. Heller*, Keunwoo Choi*, Mathieu Lagrange*, Brian McFee, Keisuke Imoto, Yuki Okamoto",
+        "bookTitle": "Audio Imagination: NeurIPS 2024 Workshop AI-Driven Speech, Music, and Sound Generation",
+        "bookCategory": "Conferences and Workshops",
+        "details": [
+            "Benchmarking the compositional generation capabilities of text-to-audio models, including DCASE challenge participants and other state-of-the-art models.",
+            "Role: Task design, baseline system and evaluation implementation, result analysis."
+        ],
+        "material" : {
+            "paper": "https://arxiv.org/abs/2410.17589",
+            "openreview": "https://openreview.net/forum?id=PuBx0GTOQN"
+        }
+    },
+    {
         "title": "CONMOD: Controllable Neural Frame-based Modulation Effects",
+        "selected": false,
         "category": "audio",
         "year" : "2024",
         "Authors": "Gyubin Lee, Hounsu Kim, Junwon Lee, Juhan Nam",
@@ -148,6 +157,7 @@
     },
     {
         "title": "Correlation of Fr ́echet Audio Distance With Human Perception of Environmental Audio Is Embedding Dependant",
+        "selected": true,
         "category": "gen audio eval",
         "year" : "2024",
         "Authors": "Modan Tailleur*, Junwon Lee*, Mathieu Lagrange, Keunwoo Choi, Laurie M. Heller, Keisuke Imoto, and Yuki Okamoto (* equal contribution)",
@@ -165,6 +175,7 @@
     },
     {
         "title": "T-FOLEY: A Controllable Waveform-Domain Diffusion Model For Temporal-Event-Guided Foley Sound Synthesis",
+        "selected": true,
         "category": "gen audio",
         "year" : "2023",
         "Authors": "Yoonjin Chung*, Junwon Lee*, and Juhan Nam (* equal contribution)",
@@ -183,6 +194,7 @@
     },
     {
         "title": "Foley Sound Synthesis In Waveform Domain With Diffusion Model",
+        "selected": false,
         "category": "gen audio",
         "year" : "2023",
         "Authors": "Yoonjin Chung, Junwon Lee, and Juhan Nam",
@@ -194,6 +206,7 @@
     },
     {
         "title": "Music Playlist Title Generation Using Artist Information",
+        "selected": false,
         "category": "gen nlp music",
         "year" : "2023",
         "Authors": "Haven Kim, Seungheon Doh, Junwon Lee, and Juhan Nam",
@@ -205,6 +218,7 @@
     },
     {
         "title": "Music Playlist Title Generation: A Machine-Translation Approach",
+        "selected": false,
         "category": "gen nlp music",
         "year" : "2021",
         "Authors": "Seungheon Doh, Junwon Lee, and Juhan Nam",

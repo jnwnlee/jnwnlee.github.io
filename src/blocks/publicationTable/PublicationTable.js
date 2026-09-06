@@ -109,12 +109,16 @@ class PublicationTable extends Component {
 
     render() {
         const listCount = this.state.list.length - 1;
+        const publicationItems = this.props.selectedOnly
+            ? PublicationItemData.filter( item => item.selected )
+            : PublicationItemData;
+        const heading = this.props.selectedOnly ? 'Selected Publications' : 'Publications';
 
         return (
             <div className="publicationTable spacer p-bottom-lg">
                 <div className="wrapper">
                     <div className="publicationTable-heading">
-                        <h4>Publications</h4>
+                        <h4>{ heading }</h4>
                         <button
                             type="button"
                             className="publicationTable-details-toggle btn has-text-color has-white-color has-background has-gray-dark-background-color"
@@ -124,6 +128,9 @@ class PublicationTable extends Component {
                             { this.state.showDetails ? 'Hide details' : 'Show details' }
                         </button>
                     </div>
+                    { this.props.description &&
+                        <p className="publicationTable-description">{ this.props.description }</p>
+                    }
                     <ul className="publicationTable-filter">
                         { this.state.list.map( ( item, key ) => (
                             <React.Fragment key={ key }>
@@ -150,7 +157,7 @@ class PublicationTable extends Component {
                     </ul>
                     <div className={"publicationTable-item-wrapper"} >
                         <div className="publicationTable-items" ref={ ( c ) => this.grid = c }>
-                            { PublicationItemData && PublicationItemData.map( ( item, key ) =>
+                            { publicationItems.map( ( item, key ) =>
                                 this.renderPublicationItem( item, key )
                             ) }
                         </div>
@@ -160,5 +167,10 @@ class PublicationTable extends Component {
         );
     }
 }
+
+PublicationTable.defaultProps = {
+    description: '',
+    selectedOnly: false
+};
 
 export default PublicationTable;

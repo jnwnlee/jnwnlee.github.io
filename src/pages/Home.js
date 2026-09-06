@@ -42,7 +42,7 @@ const Home = () => {
             <main id="main" className="site-main font-family">
                 <Prof ProfData={ProfData}/>
                 <News NewsInfoData = {NewsInfoData}/>
-                <PublicationTable/>
+                <PublicationTable selectedOnly/>
             </main>
 
             <Footer />

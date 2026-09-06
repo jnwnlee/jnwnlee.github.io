@@ -55,6 +55,11 @@ ul.publicationTable-filter {
     }
 }
 
+.publicationTable .publicationTable-description {
+    margin-bottom: 1rem;
+    color: $body_text_secondary_color;
+}
+
 /*=============================
 // publicationTable item wrapper
 =============================*/

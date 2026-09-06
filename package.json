@@ -60,6 +60,7 @@
     "include": [
       "/",
       "/about",
+      "/publications",
       "/blog",
       "/mac-research-talk"
     ]

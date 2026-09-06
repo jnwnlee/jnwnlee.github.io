@@ -3,6 +3,7 @@ import { Redirect, Route, Switch, BrowserRouter } from 'react-router-dom';
 import Home from './pages/Home';
 import Blog from './pages/Blog';
 import About from './pages/About';
+import Publications from './pages/Publications';
 import page404 from './pages/404';
 import MacResearchTalk from './pages/MacResearchTalk';
 
@@ -28,7 +29,7 @@ if (redirectedPath) {
 function App() {
     return (
         <React.StrictMode>
-            <BrowserRouter basename={process.env.PUBLIC_URL} history={history}>
+            <BrowserRouter basename={process.env.PUBLIC_URL}>
                 <Switch>
                     <Route
                         exact path= "/"
@@ -37,6 +38,10 @@ function App() {
                     <Route
                         exact path= "/about"
                         component={ About }
+                    />
+                    <Route
+                        exact path= "/publications"
+                        component={ Publications }
                     />
                     <Route
                         exact path= "/blog"
