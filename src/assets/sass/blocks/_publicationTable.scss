@@ -44,6 +44,17 @@ ul.publicationTable-filter {
     }
 }
 
+.publicationTable-heading {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1.01rem;
+
+    h4 {
+        margin-bottom: 0;
+    }
+}
+
 /*=============================
 // publicationTable item wrapper
 =============================*/
@@ -56,11 +67,51 @@ ul.publicationTable-filter {
             top: 0;
             h6 {
                 margin-top : 2rem;
-                margin-bottom: 5px;
+                margin-bottom: 0.5rem;
             }
             p {
                 font-size : 0.9rem;
-                margin-bottom : 7px;
+                margin-bottom : 0.55rem;
+            }
+
+            .publicationTable-tags {
+                margin-bottom: 0.2rem;
+            }
+
+            .publicationTable-details {
+                max-width: 60rem;
+                margin-top: 0;
+                margin-left: 0;
+                margin-bottom: 0;
+                padding-left: 0;
+                list-style: none;
+                font-size: 0.88rem;
+                line-height: 1.55;
+
+                li {
+                    display: grid;
+                    grid-template-columns: auto 1fr;
+                    column-gap: 0.35rem;
+                    margin-bottom: 0.25rem;
+
+                    &:before,
+                    &:after {
+                        display: none;
+                    }
+
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+
+                .publicationTable-detail-marker {
+                    color: $body_text_primary_color;
+                    font-weight: 700;
+                }
+            }
+
+            .publicationTable-materials {
+                margin-bottom: 0.5rem;
             }
             
             // @media #{$media_xxxl} {
