@@ -14,6 +14,7 @@ test( 'shows publication details by default and lets visitors hide them', () => 
     const detailsToggle = screen.getByRole( 'button', { name: /hide details/i } );
 
     expect( detailsToggle ).toHaveAttribute( 'aria-pressed', 'true' );
+    expect( detailsToggle ).toHaveClass( 'btn' );
     expect( document.querySelector( '.publicationTable-details' ) ).toBeInTheDocument();
 
     fireEvent.click( detailsToggle );

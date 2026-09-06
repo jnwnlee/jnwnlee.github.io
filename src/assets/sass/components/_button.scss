@@ -9,8 +9,14 @@
     text-decoration: none;
     font-size: .7rem;
     cursor: pointer;
+    transform: perspective(1px) scale(1) translateZ(0);
+    backface-visibility: hidden;
     -webkit-transition: all .5s ease;
     transition: all .5s ease;
+
+    &:hover {
+        transform: perspective(1px) scale(1.05) translateZ(0);
+    }
 
     :hover{
         color: $key-color !important;

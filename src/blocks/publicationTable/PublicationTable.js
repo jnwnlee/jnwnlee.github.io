@@ -125,7 +125,7 @@ class PublicationTable extends Component {
                             onClick={ () => this.handleDetailsToggle( !this.state.showDetails ) }
                             aria-pressed={ this.state.showDetails }
                         >
-                            { this.state.showDetails ? 'Hide details' : 'Show details' }
+                            <b>{ this.state.showDetails ? 'Hide details' : 'Show details' }</b>
                         </button>
                     </div>
                     { this.props.description &&
