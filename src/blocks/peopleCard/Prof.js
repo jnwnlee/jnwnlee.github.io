@@ -33,11 +33,12 @@ const Prof = ({ProfData}) => {
                                     
                                     <div className="info_div">
                                         <h4>{item.title}</h4>
-                                        <p>AI researcher <br/>
-                                        Ph.D. Student @ <a href='https://mac.kaist.ac.kr/'>Music and Audio Computing Lab</a> 
-                                        &nbsp;(<a href="https://mac.kaist.ac.kr/~juhan/">Prof. Juhan Nam</a>). <br/> 
-                                        Research Interest: Controllable Audio Generation, Multimodal Learning, Music & Audio Information Retrieval, Machine Learning. <br/>
-                                        james39@kaist.ac.kr
+                                        <p>I am a Ph.D. student at KAIST <a href='https://mac.kaist.ac.kr/'>Music and Audio Computing Lab</a> 
+                                        &nbsp; advised by Prof. <a href="https://mac.kaist.ac.kr/~juhan/">Juhan Nam</a>. <br/>
+                                        My research focuses on audio-centric multimodal understanding and generative AI technologies for content creators. <br/>
+                                        Recently, I have been particularly interested in controllable and interactive audio generation that leverages the reasoning, generative, and agentic capabilities of multimodal LLMs.
+                                        <br/>
+                                        Previously, I was a research intern at <a href='https://naver-career.github.io/en/teams/naver-ai-lab/'>NAVER AI Lab</a> and <a href='https://www.gaudiolab.com/ko'>Gaudio Lab</a>. <br/>
                                         </p>
                                         <div className="btn_div">
                                             {/* <DownloadButton 
