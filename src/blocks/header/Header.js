@@ -20,7 +20,7 @@ const Header = () => {
 
     return (
         <header id="header" className="site-header">
-            <div className='wrapper d-flex justify-content-between align-items-end site-title header-row'>
+            <div className='wrapper d-flex justify-content-between align-items-center site-title header-row'>
                 {/* <a
                     title="Home"
                     className=''
@@ -30,9 +30,8 @@ const Header = () => {
                 </a> */}
                 <Link
                     title="Home"
-                    className=''
-                    to="/"
-                    style={{width: '8rem'}}>
+                    className="header-logo"
+                    to="/">
                         <img src={Logo} alt='jnwn'/>
                 </Link>
                 <nav className="menu-third">

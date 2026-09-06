@@ -23,12 +23,22 @@ header {
     .header-row {
         display: flex;
         justify-content: space-between;
-        align-items: flex-end;
+        align-items: center;
         gap: 1.5rem;
+
+        .header-logo {
+            display: block;
+            width: 8rem;
+            line-height: 0;
+
+            img {
+                display: block;
+            }
+        }
 
         nav.menu-third {
             margin-left: auto;
-            align-self: flex-end;
+            align-self: center;
         }
     }
 }
