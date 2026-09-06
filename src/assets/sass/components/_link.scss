@@ -3,11 +3,15 @@
 //=================================================
 
 a {
+    display: inline-block;
     color: $body_links_color;
+    transform: perspective(1px) scale(1) translateZ(0);
+    backface-visibility: hidden;
     @extend .transition-all;
     
     &:hover {
         color: $body_links_hover_color;
+        transform: perspective(1px) scale(1.05) translateZ(0);
         // text-decoration: underline;
         @extend .transition-all;
         opacity: 0.8;
@@ -31,6 +35,16 @@ a {
         @media #{$media_xl} {
             font-size: 1rem;
         }
+    }
+}
+
+.site-main p a {
+    display: inline-block;
+    transform: perspective(1px) scale(1) translateZ(0);
+    backface-visibility: hidden;
+
+    &:hover {
+        transform: perspective(1px) scale(1.05) translateZ(0);
     }
 }
 
