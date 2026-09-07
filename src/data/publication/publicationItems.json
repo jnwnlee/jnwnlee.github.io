@@ -73,7 +73,7 @@
     },
     {
         "title": "KAD: No More FAD! An Effective and Efficient Evaluation Metric for Audio Generation",
-        "selected": true,
+        "selected": false,
         "category": "gen audio eval",
         "year" : "2025",
         "Authors": "Yoonjin Chung*, Pilsun Eu*, Junwon Lee, Keunwoo Choi, Juhan Nam, Ben Sangbae Chon (* equal contribution)",
