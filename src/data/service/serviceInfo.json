@@ -3,7 +3,7 @@
         {
             "date":"",
             "title":"Reviewer",
-            "contents":"Conferences: ICASSP, Interspeech\nJournals: IEEE TASLP, IJCV\nWorkshops: ISMIR NLP4MUSA, WASPAA, NeurIPS AI4Music",
+            "contents":"Conferences: ICASSP, Interspeech, ICLR\nJournals: IEEE TASLP, IJCV, TISMIR\nWorkshops: ISMIR NLP4MUSA, WASPAA, NeurIPS AI4Music",
             "link": ""
         },{
             "date":"",
@@ -13,6 +13,12 @@
         }
     ],
     "Talk" : [
+        {
+            "date":"10/22, 2026",
+            "title":"AI for sound effects and environmental sound production",
+            "contents":"KAIST CTxAI Contents Micro-degree Program",
+            "link": "https://kaist-ctxai.kr/"
+        },
         {
             "date":"7/13, 2026",
             "title":"Hear what matters! Text-conditioned selective video-to-audio generation",
